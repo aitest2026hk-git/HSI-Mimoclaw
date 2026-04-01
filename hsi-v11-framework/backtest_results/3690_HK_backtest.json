@@ -1,0 +1,67 @@
+{
+  "symbol": "3690.HK",
+  "period": "2020-2025",
+  "total_pivots": 13,
+  "total_windows": 479,
+  "hit_rate_4d": 4.2,
+  "hit_rate_8d": 7.5,
+  "high_conf_acc": 100.0,
+  "yearly": [
+    {
+      "year": 2020,
+      "windows": 7,
+      "hits_4d": 0,
+      "hits_8d": 0,
+      "rate_4d": 0.0,
+      "rate_8d": 0.0,
+      "avg_score": 0
+    },
+    {
+      "year": 2021,
+      "windows": 46,
+      "hits_4d": 4,
+      "hits_8d": 6,
+      "rate_4d": 8.7,
+      "rate_8d": 13.0,
+      "avg_score": 18.3
+    },
+    {
+      "year": 2022,
+      "windows": 71,
+      "hits_4d": 3,
+      "hits_8d": 6,
+      "rate_4d": 4.2,
+      "rate_8d": 8.5,
+      "avg_score": 17.5
+    },
+    {
+      "year": 2023,
+      "windows": 94,
+      "hits_4d": 3,
+      "hits_8d": 6,
+      "rate_4d": 3.2,
+      "rate_8d": 6.4,
+      "avg_score": 14.2
+    },
+    {
+      "year": 2024,
+      "windows": 115,
+      "hits_4d": 5,
+      "hits_8d": 11,
+      "rate_4d": 4.3,
+      "rate_8d": 9.6,
+      "avg_score": 16.8
+    },
+    {
+      "year": 2025,
+      "windows": 146,
+      "hits_4d": 5,
+      "hits_8d": 7,
+      "rate_4d": 3.4,
+      "rate_8d": 4.8,
+      "avg_score": 32.9
+    }
+  ],
+  "best_year": 2021,
+  "worst_year": 2020
+}

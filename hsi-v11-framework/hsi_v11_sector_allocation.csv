@@ -1,0 +1,13 @@
+SECTOR ALLOCATION TRACKER
+""
+Sector,Target %,Current %,Deviation,Signal,Key Stocks,Last Rebalance,Action Needed
+Technology,15%,12%,-3%,🚀 OVERWEIGHT,"Tencent, Alibaba, Xiaomi, SMIC",2026-01-15,Add +3%
+Financials,25%,28%,+3%,✅ NEUTRAL,"HSBC, AIA, BOC, CCB",2026-01-15,Hold
+Properties,10%,8%,-2%,🚀 OVERWEIGHT,"SHK, CK Asset, CR Land",2026-01-15,Add +2%
+Utilities,10%,11%,+1%,⚠️ UNDERWEIGHT,"CLP, HK Electric, Town Gas",2026-01-15,Reduce -1%
+Consumer Staples,15%,14%,-1%,✅ NEUTRAL,"Mengniu, Nongfu, CR Beer",2026-01-15,Add +1%
+Industrials,10%,9%,-1%,🚀 OVERWEIGHT,"CRRC, Goldwind, MTR",2026-01-15,Add +1%
+Energy,5%,6%,+1%,⚠️ UNDERWEIGHT,CNOOC,2026-01-15,Reduce -1%
+Cash/Gold,10%,12%,+2%,🛡️ RESERVE,Liquidity buffer,2026-01-15,Deploy -2%
+""
+TOTAL,100%,100%,0%,,,,

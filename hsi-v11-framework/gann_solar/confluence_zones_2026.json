@@ -1,0 +1,1187 @@
+{
+  "generated_at": "2026-02-24T05:14:21.593939",
+  "methodology": "Gann + Solar Term Confluence (\u6c5f\u6069\u5c0f\u9f8d)",
+  "total_zones": 22,
+  "zones": [
+    {
+      "center_date": "2026-05-17T00:00:00",
+      "window_start": "2026-05-14T00:00:00",
+      "window_end": "2026-05-20T00:00:00",
+      "total_score": 137,
+      "confidence": "VERY HIGH (>70)",
+      "signals": [
+        {
+          "signal_type": "square_of_nine",
+          "date": "2026-05-19T00:00:00",
+          "source_description": "Gann Square GannSquare_45deg from 2024-04-20",
+          "strength": "medium",
+          "base_points": 11,
+          "metadata": {
+            "pivot_date": "2024-04-20T00:00:00",
+            "projection_type": "GannSquare_45deg",
+            "angle": 45,
+            "days_from_pivot": 759,
+            "offset_days": 2
+          }
+        },
+        {
+          "signal_type": "square_root",
+          "date": "2026-05-20T00:00:00",
+          "source_description": "Sqrt cycle Sqrt_27\u00b2 from 2024-05-21",
+          "strength": "strong",
+          "base_points": 22,
+          "metadata": {
+            "pivot_date": "2024-05-21T00:00:00",
+            "cycle_type": "Sqrt_27\u00b2",
+            "days_from_pivot": 729,
+            "offset_days": 3
+          }
+        },
+        {
+          "signal_type": "square_of_nine",
+          "date": "2026-05-15T00:00:00",
+          "source_description": "Gann Square GannSquare_45deg from 2024-05-21",
+          "strength": "medium",
+          "base_points": 11,
+          "metadata": {
+            "pivot_date": "2024-05-21T00:00:00",
+            "projection_type": "GannSquare_45deg",
+            "angle": 45,
+            "days_from_pivot": 724,
+            "offset_days": 2
+          }
+        },
+        {
+          "signal_type": "square_of_nine",
+          "date": "2026-05-20T00:00:00",
+          "source_description": "Gann Square GannSquare_num_729 from 2024-05-21",
+          "strength": "strong",
+          "base_points": 18,
+          "metadata": {
+            "pivot_date": "2024-05-21T00:00:00",
+            "projection_type": "GannSquare_num_729",
+            "angle": null,
+            "days_from_pivot": 729,
+            "offset_days": 3
+          }
+        },
+        {
+          "signal_type": "square_root",
+          "date": "2026-05-14T00:00:00",
+          "source_description": "Sqrt cycle Sqrt_22\u00b2 from 2025-01-15",
+          "strength": "strong",
+          "base_points": 22,
+          "metadata": {
+            "pivot_date": "2025-01-15T00:00:00",
+            "cycle_type": "Sqrt_22\u00b2",
+            "days_from_pivot": 484,
+            "offset_days": 3
+          }
+        },
+        {
+          "signal_type": "square_of_nine",
+          "date": "2026-05-14T00:00:00",
+          "source_description": "Gann Square GannSquare_num_484 from 2025-01-15",
+          "strength": "strong",
+          "base_points": 18,
+          "metadata": {
+            "pivot_date": "2025-01-15T00:00:00",
+            "projection_type": "GannSquare_num_484",
+            "angle": null,
+            "days_from_pivot": 484,
+            "offset_days": 3
+          }
+        }
+      ],
+      "recommended_action": "STRONG REVERSAL EXPECTED - High conviction trade setup",
+      "notes": "Multiple timing signals converge"
+    },
+    {
+      "center_date": "2026-04-18T00:00:00",
+      "window_start": "2026-04-15T00:00:00",
+      "window_end": "2026-04-21T00:00:00",
+      "total_score": 129,
+      "confidence": "VERY HIGH (>70)",
+      "signals": [
+        {
+          "signal_type": "solar_term_tier3",
+          "date": "2026-04-20T12:52:00",
+          "source_description": "\u7a40\u96e8 (Guyu (Grain Rain))",
+          "strength": "medium",
+          "base_points": 10,
+          "metadata": {
+            "solar_term_name": "\u7a40\u96e8",
+            "tier": 3,
+            "gann_angle": null,
+            "offset_days": 3
+          }
+        },
+        {
+          "signal_type": "anniversary",
+          "date": "2026-04-20T00:00:00",
+          "source_description": "2-year anniversary of 2024-04-20",
+          "strength": "strong",
+          "base_points": 26,
+          "metadata": {
+            "pivot_date": "2024-04-20T00:00:00",
+            "year_offset": 2,
+            "offset_days": 2
+          }
+        },
+        {
+          "signal_type": "seasonal",
+          "date": "2026-04-15T00:00:00",
+          "source_description": "1yr + 3mo from 2025-01-15",
+          "strength": "medium",
+          "base_points": 10,
+          "metadata": {
+            "pivot_date": "2025-01-15T00:00:00",
+            "year_offset": 1,
+            "month_offset": 3,
+            "offset_days": 3
+          }
+        },
+        {
+          "signal_type": "square_root",
+          "date": "2026-04-19T00:00:00",
+          "source_description": "Sqrt cycle Sqrt_27\u00b2 from 2024-04-20",
+          "strength": "strong",
+          "base_points": 20,
+          "metadata": {
+            "pivot_date": "2024-04-20T00:00:00",
+            "cycle_type": "Sqrt_27\u00b2",
+            "days_from_pivot": 729,
+            "offset_days": 1
+          }
+        },
+        {
+          "signal_type": "square_of_nine",
+          "date": "2026-04-19T00:00:00",
+          "source_description": "Gann Square GannSquare_num_729 from 2024-04-20",
+          "strength": "strong",
+          "base_points": 16,
+          "metadata": {
+            "pivot_date": "2024-04-20T00:00:00",
+            "projection_type": "GannSquare_num_729",
+            "angle": null,
+            "days_from_pivot": 729,
+            "offset_days": 1
+          }
+        },
+        {
+          "signal_type": "square_of_nine",
+          "date": "2026-04-15T00:00:00",
+          "source_description": "Gann Square GannSquare_45deg from 2025-01-15",
+          "strength": "medium",
+          "base_points": 12,
+          "metadata": {
+            "pivot_date": "2025-01-15T00:00:00",
+            "projection_type": "GannSquare_45deg",
+            "angle": 45,
+            "days_from_pivot": 455,
+            "offset_days": 3
+          }
+        }
+      ],
+      "recommended_action": "STRONG REVERSAL EXPECTED - High conviction trade setup",
+      "notes": "Anniversary date(s) (1)"
+    },
+    {
+      "center_date": "2026-07-11T00:00:00",
+      "window_start": "2026-07-08T00:00:00",
+      "window_end": "2026-07-14T00:00:00",
+      "total_score": 113,
+      "confidence": "VERY HIGH (>70)",
+      "signals": [
+        {
+          "signal_type": "solar_term_tier3",
+          "date": "2026-07-07T04:53:00",
+          "source_description": "\u5c0f\u6691 (Xiaoshu (Minor Heat))",
+          "strength": "medium",
+          "base_points": 10,
+          "metadata": {
+            "solar_term_name": "\u5c0f\u6691",
+            "tier": 3,
+            "gann_angle": null,
+            "offset_days": 3
+          }
+        },
+        {
+          "signal_type": "seasonal",
+          "date": "2026-07-14T00:00:00",
+          "source_description": "1yr + 6mo from 2025-01-15",
+          "strength": "medium",
+          "base_points": 10,
+          "metadata": {
+            "pivot_date": "2025-01-15T00:00:00",
+            "year_offset": 1,
+            "month_offset": 6,
+            "offset_days": 3
+          }
+        },
+        {
+          "signal_type": "square_root",
+          "date": "2026-07-14T00:00:00",
+          "source_description": "Sqrt cycle Sqrt_48\u00b2 from 2020-03-23",
+          "strength": "strong",
+          "base_points": 22,
+          "metadata": {
+            "pivot_date": "2020-03-23T00:00:00",
+            "cycle_type": "Sqrt_48\u00b2",
+            "days_from_pivot": 2304,
+            "offset_days": 3
+          }
+        },
+        {
+          "signal_type": "square_of_nine",
+          "date": "2026-07-14T00:00:00",
+          "source_description": "Gann Square GannSquare_num_2304 from 2020-03-23",
+          "strength": "strong",
+          "base_points": 18,
+          "metadata": {
+            "pivot_date": "2020-03-23T00:00:00",
+            "projection_type": "GannSquare_num_2304",
+            "angle": null,
+            "days_from_pivot": 2304,
+            "offset_days": 3
+          }
+        },
+        {
+          "signal_type": "square_of_nine",
+          "date": "2026-07-14T00:00:00",
+          "source_description": "Gann Square GannSquare_num_784 from 2024-05-21",
+          "strength": "strong",
+          "base_points": 18,
+          "metadata": {
+            "pivot_date": "2024-05-21T00:00:00",
+            "projection_type": "GannSquare_num_784",
+            "angle": null,
+            "days_from_pivot": 784,
+            "offset_days": 3
+          }
+        }
+      ],
+      "recommended_action": "STRONG REVERSAL EXPECTED - High conviction trade setup",
+      "notes": "Multiple timing signals converge"
+    },
+    {
+      "center_date": "2026-08-11T00:00:00",
+      "window_start": "2026-08-08T00:00:00",
+      "window_end": "2026-08-14T00:00:00",
+      "total_score": 102,
+      "confidence": "VERY HIGH (>70)",
+      "signals": [
+        {
+          "signal_type": "solar_term_tier2",
+          "date": "2026-08-07T16:47:00",
+          "source_description": "\u7acb\u79cb (Liqiu (Start of Autumn)) - 225\u00b0 Gann angle",
+          "strength": "strong",
+          "base_points": 30,
+          "metadata": {
+            "solar_term_name": "\u7acb\u79cb",
+            "tier": 2,
+            "gann_angle": 225,
+            "offset_days": 3
+          }
+        },
+        {
+          "signal_type": "square_of_nine",
+          "date": "2026-08-11T00:00:00",
+          "source_description": "Gann Square GannSquare_90deg from 2024-04-20",
+          "strength": "strong",
+          "base_points": 15,
+          "metadata": {
+            "pivot_date": "2024-04-20T00:00:00",
+            "projection_type": "GannSquare_90deg",
+            "angle": 90,
+            "days_from_pivot": 843,
+            "offset_days": 0
+          }
+        },
+        {
+          "signal_type": "square_of_nine",
+          "date": "2026-08-09T00:00:00",
+          "source_description": "Gann Square GannSquare_num_841 from 2024-04-20",
+          "strength": "strong",
+          "base_points": 17,
+          "metadata": {
+            "pivot_date": "2024-04-20T00:00:00",
+            "projection_type": "GannSquare_num_841",
+            "angle": null,
+            "days_from_pivot": 841,
+            "offset_days": 2
+          }
+        },
+        {
+          "signal_type": "square_of_nine",
+          "date": "2026-08-14T00:00:00",
+          "source_description": "Gann Square GannSquare_num_576 from 2025-01-15",
+          "strength": "strong",
+          "base_points": 18,
+          "metadata": {
+            "pivot_date": "2025-01-15T00:00:00",
+            "projection_type": "GannSquare_num_576",
+            "angle": null,
+            "days_from_pivot": 576,
+            "offset_days": 3
+          }
+        }
+      ],
+      "recommended_action": "STRONG REVERSAL EXPECTED - High conviction trade setup",
+      "notes": "\u2605 East-West alignment: Solar term + Gann method"
+    },
+    {
+      "center_date": "2026-02-27T00:00:00",
+      "window_start": "2026-02-24T00:00:00",
+      "window_end": "2026-03-02T00:00:00",
+      "total_score": 100,
+      "confidence": "VERY HIGH (>70)",
+      "signals": [
+        {
+          "signal_type": "square_root",
+          "date": "2026-03-02T00:00:00",
+          "source_description": "Sqrt cycle Sqrt_35\u00b2 from 2022-10-24",
+          "strength": "strong",
+          "base_points": 22,
+          "metadata": {
+            "pivot_date": "2022-10-24T00:00:00",
+            "cycle_type": "Sqrt_35\u00b2",
+            "days_from_pivot": 1225,
+            "offset_days": 3
+          }
+        },
+        {
+          "signal_type": "square_of_nine",
+          "date": "2026-03-02T00:00:00",
+          "source_description": "Gann Square GannSquare_num_1225 from 2022-10-24",
+          "strength": "strong",
+          "base_points": 18,
+          "metadata": {
+            "pivot_date": "2022-10-24T00:00:00",
+            "projection_type": "GannSquare_num_1225",
+            "angle": null,
+            "days_from_pivot": 1225,
+            "offset_days": 3
+          }
+        },
+        {
+          "signal_type": "square_root",
+          "date": "2026-02-25T00:00:00",
+          "source_description": "Sqrt cycle Sqrt_26\u00b2 from 2024-04-20",
+          "strength": "strong",
+          "base_points": 21,
+          "metadata": {
+            "pivot_date": "2024-04-20T00:00:00",
+            "cycle_type": "Sqrt_26\u00b2",
+            "days_from_pivot": 676,
+            "offset_days": 2
+          }
+        },
+        {
+          "signal_type": "square_of_nine",
+          "date": "2026-02-25T00:00:00",
+          "source_description": "Gann Square GannSquare_num_676 from 2024-04-20",
+          "strength": "strong",
+          "base_points": 17,
+          "metadata": {
+            "pivot_date": "2024-04-20T00:00:00",
+            "projection_type": "GannSquare_num_676",
+            "angle": null,
+            "days_from_pivot": 676,
+            "offset_days": 2
+          }
+        }
+      ],
+      "recommended_action": "STRONG REVERSAL EXPECTED - High conviction trade setup",
+      "notes": "Multiple timing signals converge"
+    },
+    {
+      "center_date": "2026-03-29T00:00:00",
+      "window_start": "2026-03-26T00:00:00",
+      "window_end": "2026-04-01T00:00:00",
+      "total_score": 98,
+      "confidence": "VERY HIGH (>70)",
+      "signals": [
+        {
+          "signal_type": "square_root",
+          "date": "2026-03-28T00:00:00",
+          "source_description": "Sqrt cycle Sqrt_26\u00b2 from 2024-05-21",
+          "strength": "strong",
+          "base_points": 20,
+          "metadata": {
+            "pivot_date": "2024-05-21T00:00:00",
+            "cycle_type": "Sqrt_26\u00b2",
+            "days_from_pivot": 676,
+            "offset_days": 1
+          }
+        },
+        {
+          "signal_type": "square_of_nine",
+          "date": "2026-03-28T00:00:00",
+          "source_description": "Gann Square GannSquare_num_676 from 2024-05-21",
+          "strength": "strong",
+          "base_points": 16,
+          "metadata": {
+            "pivot_date": "2024-05-21T00:00:00",
+            "projection_type": "GannSquare_num_676",
+            "angle": null,
+            "days_from_pivot": 676,
+            "offset_days": 1
+          }
+        },
+        {
+          "signal_type": "square_root",
+          "date": "2026-04-01T00:00:00",
+          "source_description": "Sqrt cycle Sqrt_21\u00b2 from 2025-01-15",
+          "strength": "strong",
+          "base_points": 22,
+          "metadata": {
+            "pivot_date": "2025-01-15T00:00:00",
+            "cycle_type": "Sqrt_21\u00b2",
+            "days_from_pivot": 441,
+            "offset_days": 3
+          }
+        },
+        {
+          "signal_type": "square_of_nine",
+          "date": "2026-04-01T00:00:00",
+          "source_description": "Gann Square GannSquare_num_441 from 2025-01-15",
+          "strength": "strong",
+          "base_points": 18,
+          "metadata": {
+            "pivot_date": "2025-01-15T00:00:00",
+            "projection_type": "GannSquare_num_441",
+            "angle": null,
+            "days_from_pivot": 441,
+            "offset_days": 3
+          }
+        }
+      ],
+      "recommended_action": "STRONG REVERSAL EXPECTED - High conviction trade setup",
+      "notes": "Multiple timing signals converge"
+    },
+    {
+      "center_date": "2026-07-22T00:00:00",
+      "window_start": "2026-07-19T00:00:00",
+      "window_end": "2026-07-25T00:00:00",
+      "total_score": 91,
+      "confidence": "VERY HIGH (>70)",
+      "signals": [
+        {
+          "signal_type": "solar_term_tier3",
+          "date": "2026-07-23T01:20:00",
+          "source_description": "\u5927\u6691 (Dashu (Major Heat))",
+          "strength": "medium",
+          "base_points": 9,
+          "metadata": {
+            "solar_term_name": "\u5927\u6691",
+            "tier": 3,
+            "gann_angle": null,
+            "offset_days": 2
+          }
+        },
+        {
+          "signal_type": "seasonal",
+          "date": "2026-07-21T00:00:00",
+          "source_description": "3yr + 9mo from 2022-10-24",
+          "strength": "medium",
+          "base_points": 8,
+          "metadata": {
+            "pivot_date": "2022-10-24T00:00:00",
+            "year_offset": 3,
+            "month_offset": 9,
+            "offset_days": 1
+          }
+        },
+        {
+          "signal_type": "seasonal",
+          "date": "2026-07-19T00:00:00",
+          "source_description": "2yr + 3mo from 2024-04-20",
+          "strength": "medium",
+          "base_points": 10,
+          "metadata": {
+            "pivot_date": "2024-04-20T00:00:00",
+            "year_offset": 2,
+            "month_offset": 3,
+            "offset_days": 3
+          }
+        },
+        {
+          "signal_type": "square_of_nine",
+          "date": "2026-07-24T00:00:00",
+          "source_description": "Gann Square GannSquare_num_1369 from 2022-10-24",
+          "strength": "strong",
+          "base_points": 17,
+          "metadata": {
+            "pivot_date": "2022-10-24T00:00:00",
+            "projection_type": "GannSquare_num_1369",
+            "angle": null,
+            "days_from_pivot": 1369,
+            "offset_days": 2
+          }
+        },
+        {
+          "signal_type": "square_of_nine",
+          "date": "2026-07-25T00:00:00",
+          "source_description": "Gann Square GannSquare_135deg from 2025-01-15",
+          "strength": "medium",
+          "base_points": 12,
+          "metadata": {
+            "pivot_date": "2025-01-15T00:00:00",
+            "projection_type": "GannSquare_135deg",
+            "angle": 135,
+            "days_from_pivot": 556,
+            "offset_days": 3
+          }
+        }
+      ],
+      "recommended_action": "STRONG REVERSAL EXPECTED - High conviction trade setup",
+      "notes": "Multiple timing signals converge"
+    },
+    {
+      "center_date": "2026-12-22T00:00:00",
+      "window_start": "2026-12-19T00:00:00",
+      "window_end": "2026-12-25T00:00:00",
+      "total_score": 90,
+      "confidence": "VERY HIGH (>70)",
+      "signals": [
+        {
+          "signal_type": "solar_term_tier1",
+          "date": "2026-12-22T03:50:00",
+          "source_description": "\u51ac\u81f3 (Dongzhi (Winter Solstice)) - 360\u00b0 Gann angle",
+          "strength": "strong",
+          "base_points": 43,
+          "metadata": {
+            "solar_term_name": "\u51ac\u81f3",
+            "tier": 1,
+            "gann_angle": 360,
+            "offset_days": 1
+          }
+        },
+        {
+          "signal_type": "square_of_nine",
+          "date": "2026-12-25T00:00:00",
+          "source_description": "Gann Square GannSquare_90deg from 2022-10-24",
+          "strength": "strong",
+          "base_points": 18,
+          "metadata": {
+            "pivot_date": "2022-10-24T00:00:00",
+            "projection_type": "GannSquare_90deg",
+            "angle": 90,
+            "days_from_pivot": 1523,
+            "offset_days": 3
+          }
+        },
+        {
+          "signal_type": "square_of_nine",
+          "date": "2026-12-24T00:00:00",
+          "source_description": "Gann Square GannSquare_270deg from 2025-01-15",
+          "strength": "strong",
+          "base_points": 17,
+          "metadata": {
+            "pivot_date": "2025-01-15T00:00:00",
+            "projection_type": "GannSquare_270deg",
+            "angle": 270,
+            "days_from_pivot": 708,
+            "offset_days": 2
+          }
+        }
+      ],
+      "recommended_action": "STRONG REVERSAL EXPECTED - High conviction trade setup",
+      "notes": "Major solar term alignment (1); \u2605 East-West alignment: Solar term + Gann method"
+    },
+    {
+      "center_date": "2026-05-09T00:00:00",
+      "window_start": "2026-05-06T00:00:00",
+      "window_end": "2026-05-12T00:00:00",
+      "total_score": 82,
+      "confidence": "VERY HIGH (>70)",
+      "signals": [
+        {
+          "signal_type": "solar_term_tier2",
+          "date": "2026-05-05T18:56:00",
+          "source_description": "\u7acb\u590f (Lixia (Start of Summer)) - 135\u00b0 Gann angle",
+          "strength": "strong",
+          "base_points": 30,
+          "metadata": {
+            "solar_term_name": "\u7acb\u590f",
+            "tier": 2,
+            "gann_angle": 135,
+            "offset_days": 3
+          }
+        },
+        {
+          "signal_type": "square_root",
+          "date": "2026-05-12T00:00:00",
+          "source_description": "Sqrt cycle Sqrt_36\u00b2 from 2022-10-24",
+          "strength": "strong",
+          "base_points": 22,
+          "metadata": {
+            "pivot_date": "2022-10-24T00:00:00",
+            "cycle_type": "Sqrt_36\u00b2",
+            "days_from_pivot": 1296,
+            "offset_days": 3
+          }
+        },
+        {
+          "signal_type": "square_of_nine",
+          "date": "2026-05-12T00:00:00",
+          "source_description": "Gann Square GannSquare_num_1296 from 2022-10-24",
+          "strength": "strong",
+          "base_points": 18,
+          "metadata": {
+            "pivot_date": "2022-10-24T00:00:00",
+            "projection_type": "GannSquare_num_1296",
+            "angle": null,
+            "days_from_pivot": 1296,
+            "offset_days": 3
+          }
+        }
+      ],
+      "recommended_action": "STRONG REVERSAL EXPECTED - High conviction trade setup",
+      "notes": "\u2605 East-West alignment: Solar term + Gann method"
+    },
+    {
+      "center_date": "2026-06-25T00:00:00",
+      "window_start": "2026-06-22T00:00:00",
+      "window_end": "2026-06-28T00:00:00",
+      "total_score": 68,
+      "confidence": "HIGH (50-70)",
+      "signals": [
+        {
+          "signal_type": "solar_term_tier1",
+          "date": "2026-06-21T06:25:00",
+          "source_description": "\u590f\u81f3 (Xiazhi (Summer Solstice)) - 180\u00b0 Gann angle",
+          "strength": "strong",
+          "base_points": 45,
+          "metadata": {
+            "solar_term_name": "\u590f\u81f3",
+            "tier": 1,
+            "gann_angle": 180,
+            "offset_days": 3
+          }
+        },
+        {
+          "signal_type": "square_of_nine",
+          "date": "2026-06-28T00:00:00",
+          "source_description": "Gann Square GannSquare_num_529 from 2025-01-15",
+          "strength": "strong",
+          "base_points": 18,
+          "metadata": {
+            "pivot_date": "2025-01-15T00:00:00",
+            "projection_type": "GannSquare_num_529",
+            "angle": null,
+            "days_from_pivot": 529,
+            "offset_days": 3
+          }
+        }
+      ],
+      "recommended_action": "REVERSAL LIKELY - Consider positioning for turn",
+      "notes": "Major solar term alignment (1); \u2605 East-West alignment: Solar term + Gann method"
+    },
+    {
+      "center_date": "2026-11-07T00:00:00",
+      "window_start": "2026-11-04T00:00:00",
+      "window_end": "2026-11-10T00:00:00",
+      "total_score": 64,
+      "confidence": "HIGH (50-70)",
+      "signals": [
+        {
+          "signal_type": "solar_term_tier2",
+          "date": "2026-11-07T13:56:00",
+          "source_description": "\u7acb\u51ac (Lidong (Start of Winter)) - 315\u00b0 Gann angle",
+          "strength": "strong",
+          "base_points": 28,
+          "metadata": {
+            "solar_term_name": "\u7acb\u51ac",
+            "tier": 2,
+            "gann_angle": 315,
+            "offset_days": 1
+          }
+        },
+        {
+          "signal_type": "square_of_nine",
+          "date": "2026-11-04T00:00:00",
+          "source_description": "Gann Square GannSquare_135deg from 2024-04-20",
+          "strength": "medium",
+          "base_points": 12,
+          "metadata": {
+            "pivot_date": "2024-04-20T00:00:00",
+            "projection_type": "GannSquare_135deg",
+            "angle": 135,
+            "days_from_pivot": 928,
+            "offset_days": 3
+          }
+        },
+        {
+          "signal_type": "square_of_nine",
+          "date": "2026-11-04T00:00:00",
+          "source_description": "Gann Square GannSquare_225deg from 2025-01-15",
+          "strength": "medium",
+          "base_points": 12,
+          "metadata": {
+            "pivot_date": "2025-01-15T00:00:00",
+            "projection_type": "GannSquare_225deg",
+            "angle": 225,
+            "days_from_pivot": 658,
+            "offset_days": 3
+          }
+        }
+      ],
+      "recommended_action": "REVERSAL LIKELY - Consider positioning for turn",
+      "notes": "\u2605 East-West alignment: Solar term + Gann method"
+    },
+    {
+      "center_date": "2026-04-07T00:00:00",
+      "window_start": "2026-04-04T00:00:00",
+      "window_end": "2026-04-10T00:00:00",
+      "total_score": 60,
+      "confidence": "HIGH (50-70)",
+      "signals": [
+        {
+          "signal_type": "solar_term_tier3",
+          "date": "2026-04-05T05:48:00",
+          "source_description": "\u6e05\u660e (Qingming (Pure Brightness))",
+          "strength": "medium",
+          "base_points": 8,
+          "metadata": {
+            "solar_term_name": "\u6e05\u660e",
+            "tier": 3,
+            "gann_angle": null,
+            "offset_days": 1
+          }
+        },
+        {
+          "signal_type": "square_root",
+          "date": "2026-04-10T00:00:00",
+          "source_description": "Sqrt cycle Sqrt_47\u00b2 from 2020-03-23",
+          "strength": "strong",
+          "base_points": 22,
+          "metadata": {
+            "pivot_date": "2020-03-23T00:00:00",
+            "cycle_type": "Sqrt_47\u00b2",
+            "days_from_pivot": 2209,
+            "offset_days": 3
+          }
+        },
+        {
+          "signal_type": "square_of_nine",
+          "date": "2026-04-10T00:00:00",
+          "source_description": "Gann Square GannSquare_num_2209 from 2020-03-23",
+          "strength": "strong",
+          "base_points": 18,
+          "metadata": {
+            "pivot_date": "2020-03-23T00:00:00",
+            "projection_type": "GannSquare_num_2209",
+            "angle": null,
+            "days_from_pivot": 2209,
+            "offset_days": 3
+          }
+        }
+      ],
+      "recommended_action": "REVERSAL LIKELY - Consider positioning for turn",
+      "notes": "Multiple timing signals converge"
+    },
+    {
+      "center_date": "2026-01-18T00:00:00",
+      "window_start": "2026-01-15T00:00:00",
+      "window_end": "2026-01-21T00:00:00",
+      "total_score": 59,
+      "confidence": "HIGH (50-70)",
+      "signals": [
+        {
+          "signal_type": "solar_term_tier3",
+          "date": "2026-01-20T03:59:00",
+          "source_description": "\u5927\u5bd2 (Dahan (Major Cold))",
+          "strength": "medium",
+          "base_points": 10,
+          "metadata": {
+            "solar_term_name": "\u5927\u5bd2",
+            "tier": 3,
+            "gann_angle": null,
+            "offset_days": 3
+          }
+        },
+        {
+          "signal_type": "seasonal",
+          "date": "2026-01-15T00:00:00",
+          "source_description": "1yr + 9mo from 2024-04-20",
+          "strength": "medium",
+          "base_points": 10,
+          "metadata": {
+            "pivot_date": "2024-04-20T00:00:00",
+            "year_offset": 1,
+            "month_offset": 9,
+            "offset_days": 3
+          }
+        },
+        {
+          "signal_type": "anniversary",
+          "date": "2026-01-15T00:00:00",
+          "source_description": "1-year anniversary of 2025-01-15",
+          "strength": "strong",
+          "base_points": 27,
+          "metadata": {
+            "pivot_date": "2025-01-15T00:00:00",
+            "year_offset": 1,
+            "offset_days": 3
+          }
+        }
+      ],
+      "recommended_action": "REVERSAL LIKELY - Consider positioning for turn",
+      "notes": "Anniversary date(s) (1)"
+    },
+    {
+      "center_date": "2026-09-11T00:00:00",
+      "window_start": "2026-09-08T00:00:00",
+      "window_end": "2026-09-14T00:00:00",
+      "total_score": 57,
+      "confidence": "HIGH (50-70)",
+      "signals": [
+        {
+          "signal_type": "solar_term_tier3",
+          "date": "2026-09-07T18:52:00",
+          "source_description": "\u767d\u9732 (Bailu (White Dew))",
+          "strength": "medium",
+          "base_points": 10,
+          "metadata": {
+            "solar_term_name": "\u767d\u9732",
+            "tier": 3,
+            "gann_angle": null,
+            "offset_days": 3
+          }
+        },
+        {
+          "signal_type": "square_of_nine",
+          "date": "2026-09-09T00:00:00",
+          "source_description": "Gann Square GannSquare_num_841 from 2024-05-21",
+          "strength": "strong",
+          "base_points": 17,
+          "metadata": {
+            "pivot_date": "2024-05-21T00:00:00",
+            "projection_type": "GannSquare_num_841",
+            "angle": null,
+            "days_from_pivot": 841,
+            "offset_days": 2
+          }
+        },
+        {
+          "signal_type": "square_of_nine",
+          "date": "2026-09-14T00:00:00",
+          "source_description": "Gann Square GannSquare_180deg from 2025-01-15",
+          "strength": "strong",
+          "base_points": 18,
+          "metadata": {
+            "pivot_date": "2025-01-15T00:00:00",
+            "projection_type": "GannSquare_180deg",
+            "angle": 180,
+            "days_from_pivot": 607,
+            "offset_days": 3
+          }
+        }
+      ],
+      "recommended_action": "REVERSAL LIKELY - Consider positioning for turn",
+      "notes": "Multiple timing signals converge"
+    },
+    {
+      "center_date": "2026-10-20T00:00:00",
+      "window_start": "2026-10-17T00:00:00",
+      "window_end": "2026-10-23T00:00:00",
+      "total_score": 50,
+      "confidence": "HIGH (50-70)",
+      "signals": [
+        {
+          "signal_type": "seasonal",
+          "date": "2026-10-17T00:00:00",
+          "source_description": "2yr + 6mo from 2024-04-20",
+          "strength": "medium",
+          "base_points": 10,
+          "metadata": {
+            "pivot_date": "2024-04-20T00:00:00",
+            "year_offset": 2,
+            "month_offset": 6,
+            "offset_days": 3
+          }
+        },
+        {
+          "signal_type": "square_of_nine",
+          "date": "2026-10-19T00:00:00",
+          "source_description": "Gann Square GannSquare_num_2401 from 2020-03-23",
+          "strength": "strong",
+          "base_points": 16,
+          "metadata": {
+            "pivot_date": "2020-03-23T00:00:00",
+            "projection_type": "GannSquare_num_2401",
+            "angle": null,
+            "days_from_pivot": 2401,
+            "offset_days": 1
+          }
+        },
+        {
+          "signal_type": "square_of_nine",
+          "date": "2026-10-23T00:00:00",
+          "source_description": "Gann Square GannSquare_135deg from 2024-05-21",
+          "strength": "medium",
+          "base_points": 12,
+          "metadata": {
+            "pivot_date": "2024-05-21T00:00:00",
+            "projection_type": "GannSquare_135deg",
+            "angle": 135,
+            "days_from_pivot": 885,
+            "offset_days": 3
+          }
+        }
+      ],
+      "recommended_action": "REVERSAL LIKELY - Consider positioning for turn",
+      "notes": "Multiple timing signals converge"
+    },
+    {
+      "center_date": "2026-10-10T00:00:00",
+      "window_start": "2026-10-07T00:00:00",
+      "window_end": "2026-10-13T00:00:00",
+      "total_score": 47,
+      "confidence": "MEDIUM (30-50)",
+      "signals": [
+        {
+          "signal_type": "solar_term_tier3",
+          "date": "2026-10-08T10:01:00",
+          "source_description": "\u5bd2\u9732 (Hanlu (Cold Dew))",
+          "strength": "medium",
+          "base_points": 8,
+          "metadata": {
+            "solar_term_name": "\u5bd2\u9732",
+            "tier": 3,
+            "gann_angle": null,
+            "offset_days": 1
+          }
+        },
+        {
+          "signal_type": "seasonal",
+          "date": "2026-10-12T00:00:00",
+          "source_description": "1yr + 9mo from 2025-01-15",
+          "strength": "medium",
+          "base_points": 9,
+          "metadata": {
+            "pivot_date": "2025-01-15T00:00:00",
+            "year_offset": 1,
+            "month_offset": 9,
+            "offset_days": 2
+          }
+        },
+        {
+          "signal_type": "square_of_nine",
+          "date": "2026-10-07T00:00:00",
+          "source_description": "Gann Square GannSquare_num_1444 from 2022-10-24",
+          "strength": "strong",
+          "base_points": 18,
+          "metadata": {
+            "pivot_date": "2022-10-24T00:00:00",
+            "projection_type": "GannSquare_num_1444",
+            "angle": null,
+            "days_from_pivot": 1444,
+            "offset_days": 3
+          }
+        }
+      ],
+      "recommended_action": "VOLATILITY EXPECTED - Watch for opportunities",
+      "notes": "Multiple timing signals converge"
+    },
+    {
+      "center_date": "2026-03-19T00:00:00",
+      "window_start": "2026-03-16T00:00:00",
+      "window_end": "2026-03-22T00:00:00",
+      "total_score": 45,
+      "confidence": "MEDIUM (30-50)",
+      "signals": [
+        {
+          "signal_type": "solar_term_tier1",
+          "date": "2026-03-21T00:15:00",
+          "source_description": "\u6625\u5206 (Chunfen (Spring Equinox)) - 90\u00b0 Gann angle",
+          "strength": "strong",
+          "base_points": 45,
+          "metadata": {
+            "solar_term_name": "\u6625\u5206",
+            "tier": 1,
+            "gann_angle": 90,
+            "offset_days": 3
+          }
+        }
+      ],
+      "recommended_action": "VOLATILITY EXPECTED - Watch for opportunities",
+      "notes": "Major solar term alignment (1)"
+    },
+    {
+      "center_date": "2026-09-21T00:00:00",
+      "window_start": "2026-09-18T00:00:00",
+      "window_end": "2026-09-24T00:00:00",
+      "total_score": 45,
+      "confidence": "MEDIUM (30-50)",
+      "signals": [
+        {
+          "signal_type": "solar_term_tier1",
+          "date": "2026-09-23T04:22:00",
+          "source_description": "\u79cb\u5206 (Qiufen (Autumn Equinox)) - 270\u00b0 Gann angle",
+          "strength": "strong",
+          "base_points": 45,
+          "metadata": {
+            "solar_term_name": "\u79cb\u5206",
+            "tier": 1,
+            "gann_angle": 270,
+            "offset_days": 3
+          }
+        }
+      ],
+      "recommended_action": "VOLATILITY EXPECTED - Watch for opportunities",
+      "notes": "Major solar term alignment (1)"
+    },
+    {
+      "center_date": "2026-11-20T00:00:00",
+      "window_start": "2026-11-17T00:00:00",
+      "window_end": "2026-11-23T00:00:00",
+      "total_score": 42,
+      "confidence": "MEDIUM (30-50)",
+      "signals": [
+        {
+          "signal_type": "solar_term_tier3",
+          "date": "2026-11-22T11:20:00",
+          "source_description": "\u5c0f\u96ea (Xiaoxue (Minor Snow))",
+          "strength": "medium",
+          "base_points": 10,
+          "metadata": {
+            "solar_term_name": "\u5c0f\u96ea",
+            "tier": 3,
+            "gann_angle": null,
+            "offset_days": 3
+          }
+        },
+        {
+          "signal_type": "seasonal",
+          "date": "2026-11-17T00:00:00",
+          "source_description": "2yr + 6mo from 2024-05-21",
+          "strength": "medium",
+          "base_points": 10,
+          "metadata": {
+            "pivot_date": "2024-05-21T00:00:00",
+            "year_offset": 2,
+            "month_offset": 6,
+            "offset_days": 3
+          }
+        },
+        {
+          "signal_type": "square_of_nine",
+          "date": "2026-11-21T00:00:00",
+          "source_description": "Gann Square GannSquare_45deg from 2020-03-23",
+          "strength": "medium",
+          "base_points": 10,
+          "metadata": {
+            "pivot_date": "2020-03-23T00:00:00",
+            "projection_type": "GannSquare_45deg",
+            "angle": 45,
+            "days_from_pivot": 2434,
+            "offset_days": 1
+          }
+        }
+      ],
+      "recommended_action": "VOLATILITY EXPECTED - Watch for opportunities",
+      "notes": "Multiple timing signals converge"
+    },
+    {
+      "center_date": "2026-05-24T00:00:00",
+      "window_start": "2026-05-21T00:00:00",
+      "window_end": "2026-05-27T00:00:00",
+      "total_score": 41,
+      "confidence": "MEDIUM (30-50)",
+      "signals": [
+        {
+          "signal_type": "solar_term_tier3",
+          "date": "2026-05-21T09:32:00",
+          "source_description": "\u5c0f\u6eff (Xiaoman (Grain Buds))",
+          "strength": "medium",
+          "base_points": 9,
+          "metadata": {
+            "solar_term_name": "\u5c0f\u6eff",
+            "tier": 3,
+            "gann_angle": null,
+            "offset_days": 2
+          }
+        },
+        {
+          "signal_type": "anniversary",
+          "date": "2026-05-21T00:00:00",
+          "source_description": "2-year anniversary of 2024-05-21",
+          "strength": "strong",
+          "base_points": 27,
+          "metadata": {
+            "pivot_date": "2024-05-21T00:00:00",
+            "year_offset": 2,
+            "offset_days": 3
+          }
+        }
+      ],
+      "recommended_action": "VOLATILITY EXPECTED - Watch for opportunities",
+      "notes": "Anniversary date(s) (1)"
+    },
+    {
+      "center_date": "2026-06-03T00:00:00",
+      "window_start": "2026-05-31T00:00:00",
+      "window_end": "2026-06-06T00:00:00",
+      "total_score": 32,
+      "confidence": "MEDIUM (30-50)",
+      "signals": [
+        {
+          "signal_type": "solar_term_tier3",
+          "date": "2026-06-05T13:27:00",
+          "source_description": "\u8292\u7a2e (Mangzhong (Grain in Ear))",
+          "strength": "medium",
+          "base_points": 10,
+          "metadata": {
+            "solar_term_name": "\u8292\u7a2e",
+            "tier": 3,
+            "gann_angle": null,
+            "offset_days": 3
+          }
+        },
+        {
+          "signal_type": "square_of_nine",
+          "date": "2026-06-05T00:00:00",
+          "source_description": "Gann Square GannSquare_90deg from 2025-01-15",
+          "strength": "strong",
+          "base_points": 17,
+          "metadata": {
+            "pivot_date": "2025-01-15T00:00:00",
+            "projection_type": "GannSquare_90deg",
+            "angle": 90,
+            "days_from_pivot": 506,
+            "offset_days": 2
+          }
+        }
+      ],
+      "recommended_action": "VOLATILITY EXPECTED - Watch for opportunities",
+      "notes": "Multiple timing signals converge"
+    },
+    {
+      "center_date": "2026-02-02T00:00:00",
+      "window_start": "2026-01-30T00:00:00",
+      "window_end": "2026-02-05T00:00:00",
+      "total_score": 30,
+      "confidence": "MEDIUM (30-50)",
+      "signals": [
+        {
+          "signal_type": "solar_term_tier2",
+          "date": "2026-02-04T04:50:00",
+          "source_description": "\u7acb\u6625 (Lichun (Start of Spring)) - 45\u00b0 Gann angle",
+          "strength": "strong",
+          "base_points": 30,
+          "metadata": {
+            "solar_term_name": "\u7acb\u6625",
+            "tier": 2,
+            "gann_angle": 45,
+            "offset_days": 3
+          }
+        }
+      ],
+      "recommended_action": "VOLATILITY EXPECTED - Watch for opportunities",
+      "notes": "Multiple timing signals converge"
+    }
+  ]
+}

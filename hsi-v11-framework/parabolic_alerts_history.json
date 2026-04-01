@@ -1,0 +1,112 @@
+{
+  "timestamp": "2026-03-18T07:14:04.481634",
+  "asset_prices": {
+    "gold": {
+      "price": 5200.0,
+      "price_1y_ago": 2888.9,
+      "yoy_gain": 0.8,
+      "gain_30d": 0.124,
+      "gain_7d": 0.058
+    },
+    "silver": {
+      "price": 62.0,
+      "price_1y_ago": 38.0,
+      "yoy_gain": 0.63,
+      "gain_30d": 0.18,
+      "gain_7d": 0.08
+    },
+    "copper": {
+      "price": 4.85,
+      "price_1y_ago": 3.9,
+      "yoy_gain": 0.24,
+      "gain_30d": 0.08,
+      "gain_7d": 0.03
+    },
+    "hsi": {
+      "price": 25700,
+      "price_1y_ago": 18500,
+      "yoy_gain": 0.39,
+      "gain_30d": 0.05,
+      "gain_7d": 0.02
+    },
+    "bitcoin": {
+      "price": 95000,
+      "price_1y_ago": 52000,
+      "yoy_gain": 0.83,
+      "gain_30d": 0.25,
+      "gain_7d": 0.1
+    }
+  },
+  "portfolio_risk": {
+    "portfolio_risk_score": 29.375000000000004,
+    "portfolio_risk_level": "NORMAL",
+    "asset_breakdown": {
+      "gold": {
+        "risk_score": 95,
+        "yoy_gain": 80.0,
+        "allocation": 5.0,
+        "weighted_risk": 4.75,
+        "status": "CRITICAL"
+      },
+      "silver": {
+        "risk_score": 75,
+        "yoy_gain": 63.0,
+        "allocation": 0.0,
+        "weighted_risk": 0.0,
+        "status": "WARNING"
+      },
+      "copper": {
+        "risk_score": 20,
+        "yoy_gain": 24.0,
+        "allocation": 0.0,
+        "weighted_risk": 0.0,
+        "status": "NORMAL"
+      },
+      "hsi": {
+        "risk_score": 20,
+        "yoy_gain": 39.0,
+        "allocation": 35.0,
+        "weighted_risk": 7.0,
+        "status": "NORMAL"
+      },
+      "bitcoin": {
+        "risk_score": 95,
+        "yoy_gain": 83.0,
+        "allocation": 0.0,
+        "weighted_risk": 0.0,
+        "status": "CRITICAL"
+      }
+    },
+    "total_risk_contribution": 11.75,
+    "timestamp": "2026-03-18T07:14:04.481557"
+  },
+  "recommendations": [
+    {
+      "priority": "CRITICAL",
+      "asset": "gold",
+      "action": "REDUCE",
+      "current_allocation": "5.0%",
+      "target_allocation": "0.1%",
+      "rationale": "gold is in parabolic territory (+80.0% YoY). Historical precedents suggest high correction risk.",
+      "urgency": "IMMEDIATE"
+    },
+    {
+      "priority": "HIGH",
+      "asset": "silver",
+      "action": "REVIEW",
+      "current_allocation": "0.0%",
+      "target_allocation": "0.0%",
+      "rationale": "silver showing elevated gains (+63.0% YoY). Consider reducing exposure.",
+      "urgency": "THIS WEEK"
+    },
+    {
+      "priority": "CRITICAL",
+      "asset": "bitcoin",
+      "action": "REDUCE",
+      "current_allocation": "0.0%",
+      "target_allocation": "0.0%",
+      "rationale": "bitcoin is in parabolic territory (+83.0% YoY). Historical precedents suggest high correction risk.",
+      "urgency": "IMMEDIATE"
+    }
+  ]
+}

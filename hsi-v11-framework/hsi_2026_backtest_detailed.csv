@@ -1,0 +1,9 @@
+Prediction Date,Event,Confidence,Assessment,Notes,Actual High/Low
+2026-01-28,春節前 + 小寒後,55,CORRECT,"Peak at 28,053.79 on Jan 29","28,053.79 (Jan 29)"
+2026-01-29,春節 (Lunar New Year),45,CORRECT,"Peak at 28,053.79 on Jan 29","28,053.79 (Jan 29)"
+2026-02-03,立春 Start of Spring,50,CORRECT,Reversal from Jan highs,Reversal confirmed
+2026-03-21,春分 Spring Equinox,75,FUTURE,Not yet testable,N/A
+2026-03-24,春分+Gann 90°+Square Root,105,FUTURE,Not yet testable,N/A
+2026-04-19,穀雨 Grain Rain,50,FUTURE,Not yet testable,N/A
+2026-05-05,立夏 Start of Summer,55,FUTURE,Not yet testable,N/A
+2026-06-21,夏至 Summer Solstice,85,FUTURE,Not yet testable,N/A

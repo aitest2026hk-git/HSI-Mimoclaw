@@ -1,0 +1,262 @@
+{
+  "alertName": "小龍 SPX/HSI Key Levels - March 2026 (v11.3 UPDATE Mar 31)",
+  "created": "2026-03-20T05:56:00Z",
+  "updated": "2026-03-31T02:54:00Z",
+  "source": "小龍 江恩理論及周期研究 (Mar 27 video + Mar 31 AI Post)",
+  "status": "ACTIVE",
+  "frameworkVersion": "v11.3",
+  "frameworkScore": "1.70/3.00",
+  "signal": "ORDERLY DECLINE - NO PANIC YET - WAIT FOR 23,591",
+  
+  "levels": {
+    "SPX": {
+      "current": 6370,
+      "lastClose": 6370,
+      "lastChange": -107,
+      "lastChangePct": -1.65,
+      "note": "Mar 30 close - range 6316-6427 (Investing.com)",
+      "alerts": [
+        {
+          "level": 6500,
+          "type": "BROKEN",
+          "description": "Psychological support - BROKEN Mar 27",
+          "action": "Breakdown confirmed - bearish thesis validated",
+          "priority": "CRITICAL"
+        },
+        {
+          "level": 6420,
+          "type": "SUPPORT_1",
+          "description": "200-day MA equivalent",
+          "action": "First support - watch for bounce",
+          "priority": "HIGH"
+        },
+        {
+          "level": 6400,
+          "type": "BUY_SIGNAL",
+          "description": "小龍's high-conviction entry (CLOSE below)",
+          "action": "Deploy 5% cash reserve",
+          "priority": "CRITICAL"
+        },
+        {
+          "level": 6300,
+          "type": "BUY_SIGNAL_2",
+          "description": "Second support zone",
+          "action": "Deploy 5% cash reserve",
+          "priority": "CRITICAL"
+        },
+        {
+          "level": 6200,
+          "type": "TARGET",
+          "description": "小龍's primary target",
+          "action": "Maximum deployment zone",
+          "priority": "CRITICAL"
+        },
+        {
+          "level": 5900,
+          "type": "CAPITULATION_BUY",
+          "description": "Ultimate capitulation target",
+          "action": "All-in zone",
+          "priority": "EXTREME"
+        }
+      ]
+    },
+    "HSI": {
+      "current": 24727,
+      "lastClose": 24727,
+      "note": "Mar 30 close - confirmed below 25,100 neckline",
+      "neckline": 25100,
+      "necklineDescription": "小龍's CRITICAL neckline (Mar 29 transcript correction) - ALREADY BROKEN",
+      "alerts": [
+        {
+          "level": 24547,
+          "type": "RESISTANCE",
+          "description": "MA average — bounce target (小龍 AI Mar 31)",
+          "action": "ADD PUTS if rejected here",
+          "priority": "HIGH"
+        },
+        {
+          "level": 25100,
+          "type": "NECKLINE_RESISTANCE",
+          "description": "Former neckline — now resistance after break",
+          "action": "Major PUT re-entry zone",
+          "priority": "CRITICAL"
+        },
+        {
+          "level": 24000,
+          "type": "SUPPORT_1",
+          "description": "Psychological support",
+          "action": "Monitor for bounce",
+          "priority": "HIGH"
+        },
+        {
+          "level": 23591,
+          "type": "BUY_SIGNAL_1",
+          "description": "SD Channel inner band lower (小龍 AI Mar 31) — FIRST TRANCHE",
+          "action": "Deploy 3% cash reserve",
+          "priority": "CRITICAL"
+        },
+        {
+          "level": 23200,
+          "type": "BUY_SIGNAL_2",
+          "description": "小龍's original entry — SECOND TRANCHE",
+          "action": "Deploy 5% cash reserve",
+          "priority": "CRITICAL"
+        },
+        {
+          "level": 22500,
+          "type": "CAPITULATION_BUY",
+          "description": "Structural bottom zone — THIRD TRANCHE",
+          "action": "Deploy 5% cash reserve",
+          "priority": "CRITICAL"
+        },
+        {
+          "level": 22253,
+          "type": "EXTREME_BUY",
+          "description": "SD Channel outer band lower (小龍 AI Mar 31) — MAXIMUM DEPLOYMENT",
+          "action": "All-in zone if volume dries up",
+          "priority": "EXTREME"
+        },
+        {
+          "level": 22000,
+          "type": "TARGET",
+          "description": "小龍's ultimate Head-Shoulders-Top target",
+          "action": "Maximum deployment zone",
+          "priority": "EXTREME"
+        }
+      ]
+    },
+    "Oil_Brent": {
+      "current": 112.78,
+      "note": "Mar 30 close $112.78-115.38 range (CNBC/Guardian)",
+      "alerts": [
+        {
+          "level": 120,
+          "type": "WARNING",
+          "description": "Critical threshold - stagflation risk",
+          "action": "Review gold/defensive positions",
+          "priority": "HIGH"
+        },
+        {
+          "level": 100,
+          "type": "IMPROVEMENT",
+          "description": "Conflict de-escalation signal",
+          "action": "Reassess bearish stance",
+          "priority": "MEDIUM"
+        }
+      ]
+    },
+    "Gold": {
+      "current": 4529,
+      "note": "Mar 30 — DOWN 13% from $5,200 peak! Correction underway (小龍 predicted)",
+      "alerts": [
+        {
+          "level": 5200,
+          "type": "PARABOLIC_WARNING",
+          "description": "All-time high - 小龍 parabolic peak (+80% YoY)",
+          "action": "DO NOT CHASE - reduced to 5% allocation",
+          "priority": "HIGH"
+        },
+        {
+          "level": 4500,
+          "type": "CORRECTION_WATCH",
+          "description": "-13% from peak - early correction signal",
+          "action": "Monitor for stabilization",
+          "priority": "MEDIUM"
+        },
+        {
+          "level": 3800,
+          "type": "BUY_ZONE",
+          "description": "-27% from peak - approaching target correction",
+          "action": "Prepare to add back to 7-10%",
+          "priority": "HIGH"
+        },
+        {
+          "level": 3200,
+          "type": "CAPITULATION_BUY",
+          "description": "小龍's -38% correction target (~$3,200/oz)",
+          "action": "DEPLOY - add back to 10% allocation",
+          "priority": "CRITICAL"
+        },
+        {
+          "level": 5500,
+          "type": "EXTENSION_WARNING",
+          "description": "+6% from current - bubble extension risk",
+          "action": "Consider further reduction to 3%",
+          "priority": "MEDIUM"
+        }
+      ]
+    },
+    "Treasury_2Y": {
+      "current": 3.84,
+      "note": "Mar 30 — DROPPED from 4.01% to 3.84% (easing signal!)",
+      "newComponent": "v11.2 Framework - 10% weight",
+      "alerts": [
+        {
+          "level": 4.0,
+          "type": "BROKEN",
+          "description": "Psychological threshold - BROKEN (2-Year yield)",
+          "action": "Bearish for equities, especially tech",
+          "priority": "CRITICAL"
+        },
+        {
+          "level": 4.2,
+          "type": "RESISTANCE",
+          "description": "Next resistance - Fed policy constraint",
+          "action": "Increased equity selling pressure",
+          "priority": "HIGH"
+        },
+        {
+          "level": 4.3,
+          "type": "EXTREME_WARNING",
+          "description": "Stress level - risk-off acceleration",
+          "action": "Maximum defensive positioning",
+          "priority": "EXTREME"
+        },
+        {
+          "level": 3.8,
+          "type": "SUPPORT",
+          "description": "Key support - risk-on recovery signal",
+          "action": "Reassess bearish stance",
+          "priority": "MEDIUM"
+        },
+        {
+          "level": 3.7,
+          "type": "RECOVERY_SIGNAL",
+          "description": "Break below = easing pressure",
+          "action": "Potential equity bounce",
+          "priority": "HIGH"
+        }
+      ]
+    }
+  },
+  
+  "positionStrategy": {
+    "coreHSI": {"percent": 25, "action": "HOLD", "rationale": "Kondratiev Phase 1 long-term"},
+    "tactical": {"percent": 10, "action": "HOLD", "rationale": "Don't sell at support"},
+    "cashReserve": {"percent": 12, "action": "DEPLOY 3% at HSI 23,591", "rationale": "SD Channel inner band (小龍 AI Mar 31)"},
+    "dryPowder": {"percent": 5, "action": "DEPLOY at HSI 22,253", "rationale": "SD Channel outer band — extreme buy"},
+    "putOptions": {"action": "HOLD (reduced urgency)", "rationale": "Treasury 2Y easing (3.84%) reduces immediate pressure"},
+    "gold": {"percent": 5, "action": "WAIT for $3,800 (-15% from current)", "rationale": "Correction underway, not at target yet"},
+    "frameworkScore": "1.70/3.00",
+    "signal": "ORDERLY DECLINE - NO PANIC YET"
+  },
+  
+  "riskWarnings": [
+    "Orderly Decline: Volume shrinking, no panic selling yet — true capitulation hasn't arrived",
+    "SD Channel: Inner band 23,591 = first buy zone; outer band 22,253 = extreme buy",
+    "Treasury Easing: 2Y dropped 4.01% → 3.84% — reduces immediate equity pressure",
+    "10Y at 4.2% (per 小龍 AI): Stable, supports equity valuations",
+    "Oil $112-118: Geopolitical risk premium persists, but triple top forming",
+    "Gold -13%: Correction from $5,200 to $4,529 validates 小龍 parabolic warning",
+    "Fed Dovish: Powell says no rate hike needed — extends current market cycle",
+    "April Bounce: 谷雨 + Gann 29² window Apr 16-20 still in play",
+    "Key Support: 23,591 (inner band) → 22,253 (outer band) = scale-in zone"
+  ],
+  
+  "nextReview": {
+    "date": "2026-03-31",
+    "timeHKT": "08:00",
+    "timeUTC": "00:00",
+    "focus": ["HSI 25,100 neckline status (CORRECTED)", "US Treasury 2Y 4% hold/break", "Oil triple top confirmation → easing signal?", "Middle East ceasefire progress", "April bounce potential (小龍: '四月未必太差')"]
+  }
+}

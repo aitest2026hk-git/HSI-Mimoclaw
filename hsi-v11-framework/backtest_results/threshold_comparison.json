@@ -1,0 +1,347 @@
+[
+  {
+    "min_score": 0,
+    "period": "2020-2025",
+    "total_pivots": 21,
+    "total_windows": 781,
+    "total_matches": 101,
+    "unique_pivots_predicted": 17,
+    "pivot_coverage": 81.0,
+    "hit_rate_4d": 7.6,
+    "hit_rate_8d": 12.9,
+    "yearly": [
+      {
+        "year": 2020,
+        "windows": 7,
+        "hits_4d": 0,
+        "hits_8d": 0,
+        "rate_4d": 0.0,
+        "rate_8d": 0.0,
+        "avg_score": 0
+      },
+      {
+        "year": 2021,
+        "windows": 62,
+        "hits_4d": 8,
+        "hits_8d": 11,
+        "rate_4d": 12.9,
+        "rate_8d": 17.7,
+        "avg_score": 17.3
+      },
+      {
+        "year": 2022,
+        "windows": 100,
+        "hits_4d": 8,
+        "hits_8d": 16,
+        "rate_4d": 8.0,
+        "rate_8d": 16.0,
+        "avg_score": 21.2
+      },
+      {
+        "year": 2023,
+        "windows": 156,
+        "hits_4d": 17,
+        "hits_8d": 29,
+        "rate_4d": 10.9,
+        "rate_8d": 18.6,
+        "avg_score": 28.4
+      },
+      {
+        "year": 2024,
+        "windows": 201,
+        "hits_4d": 21,
+        "hits_8d": 36,
+        "rate_4d": 10.4,
+        "rate_8d": 17.9,
+        "avg_score": 30.6
+      },
+      {
+        "year": 2025,
+        "windows": 255,
+        "hits_4d": 5,
+        "hits_8d": 9,
+        "rate_4d": 2.0,
+        "rate_8d": 3.5,
+        "avg_score": 40.6
+      }
+    ],
+    "best_year": 2023,
+    "worst_year": 2020
+  },
+  {
+    "min_score": 30,
+    "period": "2020-2025",
+    "total_pivots": 21,
+    "total_windows": 290,
+    "total_matches": 45,
+    "unique_pivots_predicted": 12,
+    "pivot_coverage": 57.1,
+    "hit_rate_4d": 11.0,
+    "hit_rate_8d": 15.5,
+    "yearly": [
+      {
+        "year": 2020,
+        "windows": 1,
+        "hits_4d": 0,
+        "hits_8d": 0,
+        "rate_4d": 0.0,
+        "rate_8d": 0.0,
+        "avg_score": 0
+      },
+      {
+        "year": 2021,
+        "windows": 4,
+        "hits_4d": 2,
+        "hits_8d": 2,
+        "rate_4d": 50.0,
+        "rate_8d": 50.0,
+        "avg_score": 30.0
+      },
+      {
+        "year": 2022,
+        "windows": 17,
+        "hits_4d": 3,
+        "hits_8d": 5,
+        "rate_4d": 17.6,
+        "rate_8d": 29.4,
+        "avg_score": 37.0
+      },
+      {
+        "year": 2023,
+        "windows": 47,
+        "hits_4d": 10,
+        "hits_8d": 15,
+        "rate_4d": 21.3,
+        "rate_8d": 31.9,
+        "avg_score": 38.7
+      },
+      {
+        "year": 2024,
+        "windows": 75,
+        "hits_4d": 13,
+        "hits_8d": 16,
+        "rate_4d": 17.3,
+        "rate_8d": 21.3,
+        "avg_score": 45.6
+      },
+      {
+        "year": 2025,
+        "windows": 146,
+        "hits_4d": 4,
+        "hits_8d": 7,
+        "rate_4d": 2.7,
+        "rate_8d": 4.8,
+        "avg_score": 46.4
+      }
+    ],
+    "best_year": 2021,
+    "worst_year": 2020
+  },
+  {
+    "min_score": 50,
+    "period": "2020-2025",
+    "total_pivots": 21,
+    "total_windows": 57,
+    "total_matches": 12,
+    "unique_pivots_predicted": 5,
+    "pivot_coverage": 23.8,
+    "hit_rate_4d": 15.8,
+    "hit_rate_8d": 21.1,
+    "yearly": [
+      {
+        "year": 2020,
+        "windows": 0,
+        "hits_4d": 0,
+        "hits_8d": 0,
+        "rate_4d": 0,
+        "rate_8d": 0,
+        "avg_score": 0
+      },
+      {
+        "year": 2021,
+        "windows": 0,
+        "hits_4d": 0,
+        "hits_8d": 0,
+        "rate_4d": 0,
+        "rate_8d": 0,
+        "avg_score": 0
+      },
+      {
+        "year": 2022,
+        "windows": 2,
+        "hits_4d": 0,
+        "hits_8d": 0,
+        "rate_4d": 0.0,
+        "rate_8d": 0.0,
+        "avg_score": 0
+      },
+      {
+        "year": 2023,
+        "windows": 7,
+        "hits_4d": 3,
+        "hits_8d": 3,
+        "rate_4d": 42.9,
+        "rate_8d": 42.9,
+        "avg_score": 55.0
+      },
+      {
+        "year": 2024,
+        "windows": 10,
+        "hits_4d": 4,
+        "hits_8d": 6,
+        "rate_4d": 40.0,
+        "rate_8d": 60.0,
+        "avg_score": 59.2
+      },
+      {
+        "year": 2025,
+        "windows": 38,
+        "hits_4d": 2,
+        "hits_8d": 3,
+        "rate_4d": 5.3,
+        "rate_8d": 7.9,
+        "avg_score": 53.3
+      }
+    ],
+    "best_year": 2024,
+    "worst_year": 2020
+  },
+  {
+    "min_score": 60,
+    "period": "2020-2025",
+    "total_pivots": 21,
+    "total_windows": 23,
+    "total_matches": 4,
+    "unique_pivots_predicted": 3,
+    "pivot_coverage": 14.3,
+    "hit_rate_4d": 8.7,
+    "hit_rate_8d": 17.4,
+    "yearly": [
+      {
+        "year": 2020,
+        "windows": 0,
+        "hits_4d": 0,
+        "hits_8d": 0,
+        "rate_4d": 0,
+        "rate_8d": 0,
+        "avg_score": 0
+      },
+      {
+        "year": 2021,
+        "windows": 0,
+        "hits_4d": 0,
+        "hits_8d": 0,
+        "rate_4d": 0,
+        "rate_8d": 0,
+        "avg_score": 0
+      },
+      {
+        "year": 2022,
+        "windows": 1,
+        "hits_4d": 0,
+        "hits_8d": 0,
+        "rate_4d": 0.0,
+        "rate_8d": 0.0,
+        "avg_score": 0
+      },
+      {
+        "year": 2023,
+        "windows": 4,
+        "hits_4d": 0,
+        "hits_8d": 0,
+        "rate_4d": 0.0,
+        "rate_8d": 0.0,
+        "avg_score": 0
+      },
+      {
+        "year": 2024,
+        "windows": 3,
+        "hits_4d": 1,
+        "hits_8d": 3,
+        "rate_4d": 33.3,
+        "rate_8d": 100.0,
+        "avg_score": 66.7
+      },
+      {
+        "year": 2025,
+        "windows": 15,
+        "hits_4d": 1,
+        "hits_8d": 1,
+        "rate_4d": 6.7,
+        "rate_8d": 6.7,
+        "avg_score": 60.0
+      }
+    ],
+    "best_year": 2024,
+    "worst_year": 2020
+  },
+  {
+    "min_score": 70,
+    "period": "2020-2025",
+    "total_pivots": 21,
+    "total_windows": 9,
+    "total_matches": 1,
+    "unique_pivots_predicted": 1,
+    "pivot_coverage": 4.8,
+    "hit_rate_4d": 0.0,
+    "hit_rate_8d": 11.1,
+    "yearly": [
+      {
+        "year": 2020,
+        "windows": 0,
+        "hits_4d": 0,
+        "hits_8d": 0,
+        "rate_4d": 0,
+        "rate_8d": 0,
+        "avg_score": 0
+      },
+      {
+        "year": 2021,
+        "windows": 0,
+        "hits_4d": 0,
+        "hits_8d": 0,
+        "rate_4d": 0,
+        "rate_8d": 0,
+        "avg_score": 0
+      },
+      {
+        "year": 2022,
+        "windows": 0,
+        "hits_4d": 0,
+        "hits_8d": 0,
+        "rate_4d": 0,
+        "rate_8d": 0,
+        "avg_score": 0
+      },
+      {
+        "year": 2023,
+        "windows": 2,
+        "hits_4d": 0,
+        "hits_8d": 0,
+        "rate_4d": 0.0,
+        "rate_8d": 0.0,
+        "avg_score": 0
+      },
+      {
+        "year": 2024,
+        "windows": 1,
+        "hits_4d": 0,
+        "hits_8d": 1,
+        "rate_4d": 0.0,
+        "rate_8d": 100.0,
+        "avg_score": 80.0
+      },
+      {
+        "year": 2025,
+        "windows": 6,
+        "hits_4d": 0,
+        "hits_8d": 0,
+        "rate_4d": 0.0,
+        "rate_8d": 0.0,
+        "avg_score": 0
+      }
+    ],
+    "best_year": 2024,
+    "worst_year": 2020
+  }
+]

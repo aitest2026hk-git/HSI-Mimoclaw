@@ -1,0 +1,58 @@
+{
+  "openrouter": {
+    "api_key": "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",
+    "base_url": "https://openrouter.ai/api/v1",
+    "default_model": "google/gemini-2.0-flash-001",
+    "vision_model": "google/gemini-2.0-flash-001",
+    "reasoning_model": "google/gemini-2.0-flash-001"
+  },
+  "trading": {
+    "default_stock": "0700.HK",
+    "default_name": "Tencent (騰訊)",
+    "timeframe": "daily",
+    "history_years": 2,
+    "pattern_sensitivity": 0.75,
+    "min_confidence": 60
+  },
+  "risk": {
+    "default_stop_loss_pct": 8,
+    "default_target_reward_ratio": 2.5,
+    "max_position_pct": 25,
+    "strict_stop_loss": true
+  },
+  "caisen_methodology": {
+    "core_principle": "量在價先，型態大於指標",
+    "12_patterns": [
+      "W-bottom (雙重底)",
+      "破底翻 (Spring/False Breakdown)",
+      "M-top (雙重頂)",
+      "假突破 (False Breakout)",
+      "頭肩頂 (Head & Shoulders Top)",
+      "頭肩底 (Head & Shoulders Bottom)",
+      "收斂三角形頭部 (Descending Triangle)",
+      "收斂三角形底部 (Ascending Triangle)",
+      "上飄旗形 (Bearish Flag)",
+      "下飄旗形 (Bullish Flag)",
+      "問題量 (Problem Volume)",
+      "時間波 (Time Waves)"
+    ],
+    "key_rules": [
+      "小賠大賺 (Small losses, big gains)",
+      "隨勢而為 (Follow the trend)",
+      "嚴守停損 (Strict stop-loss)",
+      "量在價先 (Volume precedes price)",
+      "型態大於指標 (Patterns > Indicators)"
+    ]
+  },
+  "data_sources": {
+    "yahoo_finance": "https://query1.finance.yahoo.com/v8/finance/chart/",
+    "stooq": "https://stooq.com/q/d/l/",
+    "sina": "https://hq.sinajs.cn/"
+  },
+  "output": {
+    "data_dir": "./caisen_data",
+    "charts_dir": "./caisen_charts",
+    "logs_dir": "./caisen_logs",
+    "results_file": "caisen_signals.csv"
+  }
+}

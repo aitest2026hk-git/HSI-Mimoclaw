@@ -1,0 +1,54 @@
+{
+  "timestamp": "2026-03-10T03:16:40.181798+00:00",
+  "model": "v10",
+  "accuracy": {
+    "total": 68,
+    "accuracy": 32.35294117647059,
+    "high_conf": 60,
+    "high_conf_acc": 33.33333333333333,
+    "major_drops": 2,
+    "md_pred": 0,
+    "md_recall": 0.0,
+    "major_rallies": 6,
+    "mr_pred": 3,
+    "mr_recall": 50.0,
+    "bullish": 31,
+    "bearish": 35,
+    "bias": 53.03030303030303,
+    "conf_calibration": {
+      "60-69": 25.0,
+      "70-79": 40.0,
+      "80-89": 14.285714285714285
+    },
+    "high_solar_count": 1,
+    "high_solar_acc": 100.0,
+    "low_solar_count": 57,
+    "low_solar_acc": 31.57894736842105
+  },
+  "current": {
+    "date": "2026-02-20 00:00:00",
+    "price": 26413.35,
+    "prediction": "BULLISH",
+    "confidence": 69.25,
+    "risk_score": 37.875,
+    "expected_move": 7.85,
+    "trend_score": 0.4,
+    "momentum_score": -0.08,
+    "volume_score": 0.15,
+    "solar_bonus": 0.0,
+    "solar_confidence": "LOW",
+    "solar_confluence_score": 20,
+    "skip_prediction": false,
+    "signals": [
+      {
+        "type": "OBV",
+        "direction": "BULLISH",
+        "weight": 0.2,
+        "details": "OBV rising"
+      }
+    ],
+    "actual_outcome": "NEUTRAL",
+    "actual_move_pct": 1.0251255520409204
+  },
+  "status": "complete"
+}

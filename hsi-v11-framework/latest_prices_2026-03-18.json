@@ -1,0 +1,57 @@
+{
+  "timestamp": "2026-03-18T07:40:00.000Z",
+  "note": "Live API access temporarily unavailable (rate limiting). Showing latest cached data.",
+  "data": [
+    {
+      "symbol": "3690.HK",
+      "name": "Meituan (美团)",
+      "date": "2026-03-11",
+      "close": 141.58,
+      "open": 142.73,
+      "high": 143.22,
+      "low": 141.41,
+      "volume": 21884069,
+      "change": -3.32,
+      "change_pct": -2.29,
+      "status": "CACHED (Mar 11)"
+    },
+    {
+      "symbol": "916.HK",
+      "name": "China Longyuan Power (龙源电力)",
+      "date": "2026-03-11",
+      "close": 5.14,
+      "open": 5.06,
+      "high": 5.15,
+      "low": 5.03,
+      "volume": 26606266,
+      "change": -0.05,
+      "change_pct": -0.96,
+      "status": "CACHED (Mar 11)"
+    },
+    {
+      "symbol": "728.HK",
+      "name": "China Telecom (中国电信)",
+      "date": "N/A",
+      "close": null,
+      "status": "NO CACHED DATA"
+    },
+    {
+      "symbol": "^HSI",
+      "name": "Hang Seng Index (恒生指数)",
+      "date": "2026-02-25",
+      "close": 26638.02,
+      "open": 26684.12,
+      "high": 26745.53,
+      "low": 26736.47,
+      "volume": 0,
+      "change": 93.70,
+      "change_pct": 0.35,
+      "status": "CACHED (Feb 25)"
+    }
+  ],
+  "api_status": {
+    "yahoo_finance": "Rate limited / blocked",
+    "stooq": "HK stocks not available",
+    "recommendation": "Retry in 1-2 hours or use alternative data source"
+  }
+}

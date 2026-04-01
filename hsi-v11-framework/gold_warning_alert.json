@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-03-18T07:10:45.214127",
+  "alert_type": "CRITICAL",
+  "urgency": "CRITICAL",
+  "title": "🚨 GOLD PARABOLIC CRITICAL",
+  "message": "🚨 CRITICAL: Gold +80.0% YoY matches 1971/2011 parabolic peaks. Correction risk EXTREME.",
+  "risk_level": "CRITICAL",
+  "risk_score": 95,
+  "current_price": 5200.0,
+  "yoy_gain_pct": 80.0,
+  "correction_estimate": {
+    "expected_pct": -38.25,
+    "price_target": 3210.9999999999995,
+    "time_horizon": "3-12 months"
+  },
+  "recommendations": [
+    "IMMEDIATELY reduce gold to 3-5% maximum",
+    "DO NOT add to positions at any cost",
+    "Prepare buy orders at -30%, -40%, -45% levels",
+    "Consider inverse gold ETFs for hedging",
+    "Monitor for Fed emergency rate hikes",
+    "Review 小龍's full analysis for context"
+  ],
+  "historical_context": "Based on 1971_nixon_shock, typical correction after parabolic move: -47.2%",
+  "next_review": "2026-03-25T07:10:45.214135"
+}
