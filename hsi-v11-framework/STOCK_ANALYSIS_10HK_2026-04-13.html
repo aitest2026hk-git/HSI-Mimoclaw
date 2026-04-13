@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10 HK Stock Analysis — April 13, 2026 | HSI v11 Framework</title>
+    <style>
+        :root {
+            --red: #e74c3c;
+            --green: #27ae60;
+            --amber: #f39c12;
+            --blue: #2980b9;
+            --dark: #2c3e50;
+            --light: #ecf0f1;
+            --white: #ffffff;
+            --purple: #8e44ad;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; background: #f0f2f5; color: #333; line-height: 1.6; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        .report { background: var(--white); border-radius: 12px; box-shadow: 0 4px 24px rgba(0,0,0,0.08); overflow: hidden; }
+
+        .header { background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460); color: white; padding: 40px; text-align: center; }
+        .header h1 { font-size: 26px; margin-bottom: 6px; letter-spacing: 1px; }
+        .header .tagline { font-size: 14px; opacity: 0.7; margin-bottom: 16px; }
+        .header .date-badge { display: inline-block; background: rgba(255,255,255,0.15); padding: 6px 18px; border-radius: 20px; font-size: 13px; }
+
+        .alert-banner { background: linear-gradient(90deg, #c0392b, #e74c3c); color: white; padding: 16px 40px; font-size: 14px; text-align: center; }
+        .alert-banner strong { font-size: 16px; }
+
+        .content { padding: 30px 40px; }
+        h2 { color: var(--dark); font-size: 20px; margin: 30px 0 16px; padding-bottom: 8px; border-bottom: 2px solid var(--light); }
+        h3 { color: var(--dark); font-size: 16px; margin: 20px 0 10px; }
+
+        table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 13px; }
+        th { background: var(--dark); color: white; padding: 10px 12px; text-align: left; font-weight: 600; font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; }
+        td { padding: 9px 12px; border-bottom: 1px solid #eee; }
+        tr:hover { background: #f8f9fa; }
+
+        .signal { display: inline-block; padding: 3px 10px; border-radius: 12px; font-size: 12px; font-weight: 700; white-space: nowrap; }
+        .signal-red { background: #fde8e8; color: var(--red); }
+        .signal-amber { background: #fef3e2; color: var(--amber); }
+        .signal-green { background: #e8f8f0; color: var(--green); }
+        .signal-blue { background: #e8f0fe; color: var(--blue); }
+        .signal-neutral { background: #f0f0f0; color: #888; }
+
+        .stock-card { border-radius: 10px; padding: 24px; margin: 16px 0; border-left: 5px solid; }
+        .stock-card.strong-buy { background: #e8f8f0; border-color: var(--green); }
+        .stock-card.buy { background: #eefbe8; border-color: #2ecc71; }
+        .stock-card.weak-buy { background: #fef9e7; border-color: var(--amber); }
+        .stock-card.neutral { background: #f8f9fa; border-color: #bbb; }
+        .stock-card.avoid { background: #fef0f0; border-color: var(--red); }
+        .stock-card h3 { margin-top: 0; font-size: 18px; }
+        .stock-card .meta { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 8px; margin: 12px 0; }
+        .stock-card .meta-item { font-size: 13px; }
+        .stock-card .meta-item .label { color: #888; font-size: 11px; text-transform: uppercase; }
+        .stock-card .meta-item .value { font-weight: 700; font-size: 15px; }
+        .stock-card .trade-setup { background: rgba(255,255,255,0.7); border-radius: 6px; padding: 12px; margin-top: 12px; }
+        .stock-card .trade-setup table { margin: 0; }
+        .stock-card .trade-setup th { background: rgba(0,0,0,0.08); color: var(--dark); font-size: 10px; }
+        .stock-card .note { font-size: 13px; margin-top: 10px; padding: 10px; background: rgba(255,255,255,0.5); border-radius: 6px; }
+        .stock-card .indicator-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 6px; margin: 10px 0; }
+        .stock-card .indicator { text-align: center; padding: 8px; background: rgba(255,255,255,0.6); border-radius: 6px; }
+        .stock-card .indicator .ind-label { font-size: 10px; color: #888; text-transform: uppercase; }
+        .stock-card .indicator .ind-value { font-size: 16px; font-weight: 700; }
+
+        .bar-visual { display: flex; align-items: center; gap: 8px; margin: 4px 0; }
+        .bar-track { flex: 1; height: 8px; background: #e0e0e0; border-radius: 4px; overflow: hidden; position: relative; }
+        .bar-fill { height: 100%; border-radius: 4px; }
+        .bar-marker { position: absolute; top: -3px; width: 2px; height: 14px; background: #333; }
+
+        .callout { border-radius: 8px; padding: 20px; margin: 16px 0; }
+        .callout-danger { background: #fde8e8; border: 1px solid #f5c6cb; }
+        .callout-success { background: #e8f8f0; border: 1px solid #c3e6cb; }
+        .callout-info { background: #e8f0fe; border: 1px solid #b8daff; }
+        .callout-warning { background: #fef3e2; border: 1px solid #ffd93d; }
+
+        .rules-box { background: var(--dark); color: white; border-radius: 8px; padding: 20px; margin: 16px 0; }
+        .rules-box h3 { color: white; margin-top: 0; }
+        .rules-box ul { padding-left: 20px; font-size: 14px; }
+        .rules-box li { margin-bottom: 8px; }
+
+        .score-bar { display: inline-flex; gap: 2px; }
+        .score-pip { width: 12px; height: 12px; border-radius: 3px; background: #ddd; }
+        .score-pip.pos { background: var(--green); }
+        .score-pip.neg { background: var(--red); }
+        .score-pip.zero { background: #ccc; }
+
+        .footer { background: var(--light); padding: 20px 40px; text-align: center; font-size: 12px; color: #888; }
+
+        @media (max-width: 768px) {
+            .content { padding: 20px; }
+            .stock-card .meta { grid-template-columns: repeat(2, 1fr); }
+            .header h1 { font-size: 20px; }
+        }
+        @media print {
+            body { background: white; }
+            .report { box-shadow: none; border: 1px solid #ddd; }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+<div class="report">
+
+<!-- HEADER -->
+<div class="header">
+    <h1>📊 10 HK STOCK ANALYSIS</h1>
+    <div class="tagline">HSI v11 Framework — Technical Signal Analysis | Zhou Jintao + 小龍 Gann Enhanced Methodology</div>
+    <div class="date-badge">📅 April 13, 2026 (Monday) — 12:33 HKT | Data as of market close</div>
+</div>
+
+<!-- ALERT -->
+<div class="alert-banner">
+    ⚠️ <strong>MACRO CONTEXT:</strong> Scenario C Active — Hormuz Blockade | Oil $104.77 (+8.5%) | Defensive posture recommended | Cash is king
+</div>
+
+<div class="content">
+
+<!-- SUMMARY TABLE -->
+<h2>📊 Signal Summary — All 10 Stocks Ranked</h2>
+<table>
+    <tr>
+        <th>Rank</th>
+        <th>Stock</th>
+        <th>Code</th>
+        <th>Close (HKD)</th>
+        <th>Day %</th>
+        <th>Week %</th>
+        <th>Month %</th>
+        <th>RSI</th>
+        <th>Trend</th>
+        <th>Signal</th>
+        <th>Score</th>
+    </tr>
+    <tr>
+        <td><strong>1</strong></td>
+        <td><strong>China Longyuan Power</strong></td>
+        <td>0916.HK</td>
+        <td>6.550</td>
+        <td style="color:var(--red);">-3.39%</td>
+        <td style="color:var(--red);">-6.43%</td>
+        <td style="color:var(--red);">-17.09%</td>
+        <td><strong style="color:var(--green);">19.4</strong></td>
+        <td>Bullish</td>
+        <td><span class="signal signal-green">🟢 STRONG BUY</span></td>
+        <td><strong style="color:var(--green);">+4</strong></td>
+    </tr>
+    <tr>
+        <td><strong>2</strong></td>
+        <td><strong>China Tourism Group</strong></td>
+        <td>1880.HK</td>
+        <td>64.300</td>
+        <td style="color:var(--red);">-1.00%</td>
+        <td style="color:var(--red);">-3.24%</td>
+        <td style="color:var(--red);">-11.31%</td>
+        <td><strong style="color:var(--amber);">37.7</strong></td>
+        <td>Bearish</td>
+        <td><span class="signal signal-green">🟢 BUY</span></td>
+        <td><strong style="color:var(--green);">+2</strong></td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Meituan</td>
+        <td>3690.HK</td>
+        <td>85.750</td>
+        <td style="color:var(--red);">-2.11%</td>
+        <td style="color:var(--green);">+4.64%</td>
+        <td style="color:var(--green);">+8.41%</td>
+        <td>56.6</td>
+        <td>Bearish</td>
+        <td><span class="signal signal-amber">🟡 WEAK BUY</span></td>
+        <td>+1</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>China Telecom</td>
+        <td>0728.HK</td>
+        <td>4.980</td>
+        <td style="color:var(--red);">-0.20%</td>
+        <td style="color:var(--green);">+2.05%</td>
+        <td style="color:var(--red);">-0.60%</td>
+        <td><strong style="color:var(--amber);">37.1</strong></td>
+        <td>Bearish</td>
+        <td><span class="signal signal-amber">🟡 WEAK BUY</span></td>
+        <td>+1</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>China Tower</td>
+        <td>0788.HK</td>
+        <td>10.800</td>
+        <td style="color:var(--red);">-0.28%</td>
+        <td style="color:var(--green);">+0.75%</td>
+        <td style="color:var(--red);">-0.92%</td>
+        <td><strong style="color:var(--amber);">36.2</strong></td>
+        <td>Bearish</td>
+        <td><span class="signal signal-amber">🟡 WEAK BUY</span></td>
+        <td>+1</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>Trip.com</td>
+        <td>9961.HK</td>
+        <td>394.200</td>
+        <td style="color:var(--red);">-1.70%</td>
+        <td>+0.05%</td>
+        <td style="color:var(--red);">-6.28%</td>
+        <td>45.3</td>
+        <td>Bearish</td>
+        <td><span class="signal signal-amber">🟡 WEAK BUY</span></td>
+        <td>+1</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>HKEX</td>
+        <td>0388.HK</td>
+        <td>402.400</td>
+        <td style="color:var(--red);">-1.47%</td>
+        <td style="color:var(--green);">+0.50%</td>
+        <td style="color:var(--red);">-3.41%</td>
+        <td>52.0</td>
+        <td>Bearish</td>
+        <td><span class="signal signal-neutral">⚪ HOLD</span></td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>Ping An Insurance</td>
+        <td>2318.HK</td>
+        <td>61.300</td>
+        <td style="color:var(--red);">-2.31%</td>
+        <td style="color:var(--green);">+1.16%</td>
+        <td style="color:var(--red);">-3.39%</td>
+        <td>49.0</td>
+        <td>Bearish</td>
+        <td><span class="signal signal-neutral">⚪ HOLD</span></td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>CR Power</td>
+        <td>0836.HK</td>
+        <td>18.720</td>
+        <td style="color:var(--red);">-0.95%</td>
+        <td style="color:var(--green);">+1.30%</td>
+        <td style="color:var(--red);">-0.37%</td>
+        <td>46.1</td>
+        <td>Bullish</td>
+        <td><span class="signal signal-neutral">⚪ HOLD</span></td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>Sanhua Intelligent</td>
+        <td>2050.HK</td>
+        <td>30.000</td>
+        <td style="color:var(--red);">-2.72%</td>
+        <td style="color:var(--green);">+1.56%</td>
+        <td style="color:var(--red);">-5.84%</td>
+        <td>53.1</td>
+        <td>Bearish</td>
+        <td><span class="signal signal-neutral">⚪ HOLD</span></td>
+        <td>0</td>
+    </tr>
+</table>
+
+<!-- #1 STRONG BUY -->
+<h2>🟢 Actionable Signals — Detailed Breakdown</h2>
+
+<div class="stock-card strong-buy">
+    <h3>🥇 #1 STRONG BUY — China Longyuan Power (龍源電力) 0916.HK</h3>
+    <div class="meta">
+        <div class="meta-item"><div class="label">Last Close</div><div class="value" style="color:var(--red);">HKD 6.550</div></div>
+        <div class="meta-item"><div class="label">Day Change</div><div class="value" style="color:var(--red);">-3.39%</div></div>
+        <div class="meta-item"><div class="label">Week Change</div><div class="value" style="color:var(--red);">-6.43%</div></div>
+        <div class="meta-item"><div class="label">Month Change</div><div class="value" style="color:var(--red);">-17.09%</div></div>
+        <div class="meta-item"><div class="label">52W Range</div><div class="value">5.96 — 8.66</div></div>
+        <div class="meta-item"><div class="label">Position in Range</div><div class="value">21.9%</div></div>
+    </div>
+    <div class="indicator-grid">
+        <div class="indicator"><div class="ind-label">RSI(14)</div><div class="ind-value" style="color:var(--green);">19.4 🔥</div></div>
+        <div class="indicator"><div class="ind-label">MACD Hist</div><div class="ind-value" style="color:var(--red);">-0.153</div></div>
+        <div class="indicator"><div class="ind-label">Stoch %K</div><div class="ind-value" style="color:var(--green);">4.5 🔥</div></div>
+        <div class="indicator"><div class="ind-label">ATR(14)</div><div class="ind-value">0.309</div></div>
+        <div class="indicator"><div class="ind-label">BB Position</div><div class="ind-value" style="color:var(--green);">LOWER</div></div>
+        <div class="indicator"><div class="ind-label">Trend</div><div class="ind-value" style="color:var(--green);">Bullish</div></div>
+        <div class="indicator"><div class="ind-label">Vol Ratio</div><div class="ind-value">0.81x</div></div>
+        <div class="indicator"><div class="ind-label">Score</div><div class="ind-value" style="color:var(--green);">+4</div></div>
+    </div>
+    <div class="trade-setup">
+        <h4 style="margin-bottom:8px; font-size:14px;">📍 Long Trade Setup</h4>
+        <table>
+            <tr><th>Entry</th><th>Stop Loss</th><th>Target</th><th>Risk</th><th>Reward</th><th>R:R</th></tr>
+            <tr>
+                <td><strong>6.550</strong></td>
+                <td style="color:var(--red);">6.457 (-1.4%)</td>
+                <td style="color:var(--green);">8.513 (+30.0%)</td>
+                <td>0.093</td>
+                <td>1.963</td>
+                <td><strong style="color:var(--green);">21.1:1</strong></td>
+            </tr>
+        </table>
+    </div>
+    <div class="note">
+        <strong>⚡ Why STRONG BUY:</strong> RSI 19.4 is extremely oversold — last seen near major bottoms. Stochastic %K at 4.5 signals capitulation. Price at lower Bollinger Band. MACD histogram negative but shrinking (divergence forming). Trend is still bullish on MA20 > MA50 crossover. <strong>Tight 1.4% stop = limited downside, 30% upside = exceptional R:R even in crisis.</strong> Oversold bounces are largely independent of macro direction.
+    </div>
+</div>
+
+<!-- #2 BUY -->
+<div class="stock-card buy">
+    <h3>🥈 #2 BUY — China Tourism Group (中免集團) 1880.HK</h3>
+    <div class="meta">
+        <div class="meta-item"><div class="label">Last Close</div><div class="value" style="color:var(--red);">HKD 64.300</div></div>
+        <div class="meta-item"><div class="label">Day Change</div><div class="value" style="color:var(--red);">-1.00%</div></div>
+        <div class="meta-item"><div class="label">Week Change</div><div class="value" style="color:var(--red);">-3.24%</div></div>
+        <div class="meta-item"><div class="label">Month Change</div><div class="value" style="color:var(--red);">-11.31%</div></div>
+        <div class="meta-item"><div class="label">52W Range</div><div class="value">48.30 — 107.00</div></div>
+        <div class="meta-item"><div class="label">Position in Range</div><div class="value">27.3%</div></div>
+    </div>
+    <div class="indicator-grid">
+        <div class="indicator"><div class="ind-label">RSI(14)</div><div class="ind-value" style="color:var(--amber);">37.7</div></div>
+        <div class="indicator"><div class="ind-label">MACD Hist</div><div class="ind-value" style="color:var(--green);">+0.518</div></div>
+        <div class="indicator"><div class="ind-label">Stoch %K</div><div class="ind-value" style="color:var(--green);">14.6 🔥</div></div>
+        <div class="indicator"><div class="ind-label">ATR(14)</div><div class="ind-value">2.521</div></div>
+        <div class="indicator"><div class="ind-label">BB Position</div><div class="ind-value">MIDDLE</div></div>
+        <div class="indicator"><div class="ind-label">Trend</div><div class="ind-value" style="color:var(--red);">Bearish</div></div>
+        <div class="indicator"><div class="ind-label">Vol Ratio</div><div class="ind-value">0.88x</div></div>
+        <div class="indicator"><div class="ind-label">Score</div><div class="ind-value" style="color:var(--green);">+2</div></div>
+    </div>
+    <div class="trade-setup">
+        <h4 style="margin-bottom:8px; font-size:14px;">📍 Long Trade Setup</h4>
+        <table>
+            <tr><th>Entry</th><th>Stop Loss</th><th>Target</th><th>Risk</th><th>Reward</th><th>R:R</th></tr>
+            <tr>
+                <td><strong>64.300</strong></td>
+                <td style="color:var(--red);">61.498 (-4.4%)</td>
+                <td style="color:var(--green);">105.567 (+64.2%)</td>
+                <td>2.802</td>
+                <td>41.267</td>
+                <td><strong style="color:var(--green);">14.7:1</strong></td>
+            </tr>
+        </table>
+    </div>
+    <div class="note">
+        <strong>⚡ Why BUY:</strong> Down -11.3% in a month — oversold on multiple indicators. Stochastic %K at 14.6 (oversold). RSI near 37 approaching oversold territory. MACD histogram positive and turning up. Support at 63.40 is very close — tight stop possible. <strong>Consumer stock — riskier in oil crisis environment, but R:R is excellent. Use smaller position size.</strong>
+    </div>
+</div>
+
+<!-- #3-6 WEAK BUY -->
+<h3>🟡 #3-6 WEAK BUY — Tactical Plays Only</h3>
+
+<div class="stock-card weak-buy">
+    <h3>#3 — Meituan (美團) 3690.HK</h3>
+    <div class="meta">
+        <div class="meta-item"><div class="label">Close</div><div class="value">HKD 85.750</div></div>
+        <div class="meta-item"><div class="label">Day</div><div class="value" style="color:var(--red);">-2.11%</div></div>
+        <div class="meta-item"><div class="label">Week</div><div class="value" style="color:var(--green);">+4.64%</div></div>
+        <div class="meta-item"><div class="label">RSI</div><div class="value">56.6</div></div>
+        <div class="meta-item"><div class="label">vs MA200</div><div class="value" style="color:var(--red);">-16.93%</div></div>
+        <div class="meta-item"><div class="label">R:R</div><div class="value">1.4:1</div></div>
+    </div>
+    <div class="note">
+        MACD bullish, deep below MA200. Already bounced +8.4% this month — may be running out of steam. RSI not oversold enough for high conviction. <strong>Entry: 85.75 | Stop: 71.49 | Target: 106.10</strong>. Wide stop (-16.6%) makes this riskier in crisis. Tactical only.
+    </div>
+</div>
+
+<div class="stock-card weak-buy">
+    <h3>#4 — China Telecom (中國電信) 0728.HK</h3>
+    <div class="meta">
+        <div class="meta-item"><div class="label">Close</div><div class="value">HKD 4.980</div></div>
+        <div class="meta-item"><div class="label">Day</div><div class="value" style="color:var(--red);">-0.20%</div></div>
+        <div class="meta-item"><div class="label">RSI</div><div class="value" style="color:var(--amber);">37.1</div></div>
+        <div class="meta-item"><div class="label">R:R</div><div class="value">1.4:1</div></div>
+        <div class="meta-item"><div class="label">Crisis Factor</div><div class="value" style="color:var(--green);">🛡️ Safe Haven</div></div>
+    </div>
+    <div class="note">
+        <strong>🛡️ Defensive telecom — low oil sensitivity.</strong> RSI 37 near oversold. MACD turning positive. Support at 4.78. <strong>Entry: 4.98 | Stop: 4.64 (-6.9%) | Target: 5.45 (+9.4%)</strong>. In a crisis, telecoms are where money hides. Good for capital preservation with modest upside.
+    </div>
+</div>
+
+<div class="stock-card weak-buy">
+    <h3>#5 — China Tower (中國鐵塔) 0788.HK</h3>
+    <div class="meta">
+        <div class="meta-item"><div class="label">Close</div><div class="value">HKD 10.800</div></div>
+        <div class="meta-item"><div class="label">Day</div><div class="value" style="color:var(--red);">-0.28%</div></div>
+        <div class="meta-item"><div class="label">RSI</div><div class="value" style="color:var(--amber);">36.2</div></div>
+        <div class="meta-item"><div class="label">R:R</div><div class="value">1.4:1</div></div>
+        <div class="meta-item"><div class="label">Crisis Factor</div><div class="value" style="color:var(--green);">🛡️ Infrastructure</div></div>
+    </div>
+    <div class="note">
+        <strong>🛡️ Infrastructure play — crisis-resistant.</strong> RSI 36 near oversold. Very low volatility (ATR 0.20). Support at 10.54. <strong>Entry: 10.80 | Stop: 10.22 (-5.4%) | Target: 11.63 (+7.7%)</strong>. Steady defensive name, not exciting but reliable.
+    </div>
+</div>
+
+<div class="stock-card weak-buy">
+    <h3>#6 — Trip.com (攜程) 9961.HK — ⚠️ CAUTION</h3>
+    <div class="meta">
+        <div class="meta-item"><div class="label">Close</div><div class="value">HKD 394.200</div></div>
+        <div class="meta-item"><div class="label">Day</div><div class="value" style="color:var(--red);">-1.70%</div></div>
+        <div class="meta-item"><div class="label">vs MA200</div><div class="value" style="color:var(--red);">-22.10%</div></div>
+        <div class="meta-item"><div class="label">Position</div><div class="value" style="color:var(--red);">7.7% of 52W range</div></div>
+        <div class="meta-item"><div class="label">R:R</div><div class="value">8.4:1</div></div>
+        <div class="meta-item"><div class="label">Crisis Factor</div><div class="value" style="color:var(--red);">⚠️ Travel = High Risk</div></div>
+    </div>
+    <div class="note">
+        Technically oversold at 7.7% of 52W range — but <strong>travel stocks get crushed in oil crises.</strong> Oil = jet fuel costs. Hormuz = travel disruption. Signal is weak buy on indicators, but macro headwinds are severe. <strong>Avoid unless Hormuz resolves. If it does, this could snap back +20% fast.</strong>
+    </div>
+</div>
+
+<!-- NEUTRAL -->
+<h3>⚪ #7-10 HOLD/NEUTRAL — No Actionable Signal</h3>
+
+<div class="stock-card neutral">
+    <table style="font-size: 13px;">
+        <tr>
+            <th>Stock</th>
+            <th>Code</th>
+            <th>Close</th>
+            <th>RSI</th>
+            <th>MACD</th>
+            <th>Trend</th>
+            <th>Why Neutral</th>
+        </tr>
+        <tr>
+            <td><strong>HKEX</strong></td>
+            <td>0388.HK</td>
+            <td>402.40</td>
+            <td>52.0</td>
+            <td>Bullish</td>
+            <td>Bearish</td>
+            <td>Indicators cancelling each other — no edge</td>
+        </tr>
+        <tr>
+            <td><strong>Ping An</strong></td>
+            <td>2318.HK</td>
+            <td>61.30</td>
+            <td>49.0</td>
+            <td>Bullish</td>
+            <td>Bearish</td>
+            <td>Dead center RSI, conflicting signals</td>
+        </tr>
+        <tr>
+            <td><strong>CR Power</strong></td>
+            <td>0836.HK</td>
+            <td>18.72</td>
+            <td>46.1</td>
+            <td>Bearish</td>
+            <td>Bullish</td>
+            <td>MACD vs trend divergence — confused</td>
+        </tr>
+        <tr>
+            <td><strong>Sanhua</strong></td>
+            <td>2050.HK</td>
+            <td>30.00</td>
+            <td>53.1</td>
+            <td>Bullish</td>
+            <td>Bearish</td>
+            <td>Industrials hurt by oil/inflation, no clear signal</td>
+        </tr>
+    </table>
+</div>
+
+<!-- CRISIS RULES -->
+<h2>🛡️ Crisis Trading Rules</h2>
+
+<div class="rules-box">
+    <h3>⚠️ Scenario C Active — Hormuz Blockade — Follow These Rules</h3>
+    <ul>
+        <li><strong>No single position &gt;5% of portfolio</strong> — diversification protects in crisis</li>
+        <li><strong>All stops must be tight</strong> — max -5% from entry (Longyuan already -1.4%)</li>
+        <li><strong>Cash is still king</strong> — these are tactical trades, not core positions</li>
+        <li><strong>Oil is THE indicator</strong> — if oil breaks $110, even oversold stocks fall further</li>
+        <li><strong>Monitor Hormuz developments</strong> — any ceasefire news = travel/tech snap-back</li>
+        <li><strong>Prefer defensive sectors</strong> — telecom (0728, 0788) over consumer/travel (9961, 1880)</li>
+        <li><strong>Scale in</strong> — don't deploy full position at once; add on confirmation</li>
+    </ul>
+</div>
+
+<!-- RECOMMENDED APPROACH -->
+<h2>🎯 Recommended Approach by Conviction Level</h2>
+
+<div class="callout callout-success">
+    <h3>🟢 HIGHEST CONVICTION: Longyuan 0916</h3>
+    <p style="margin-top:8px; font-size:14px;">
+        Oversold bounce is independent of macro direction. RSI 19 + Stoch 4.5 = textbook capitulation.
+        Tight 1.4% stop = you risk almost nothing. Even in worst case, you lose very little.
+        <strong>Suggested allocation: 3-5% of portfolio.</strong>
+    </p>
+</div>
+
+<div class="callout callout-info">
+    <h3>🛡️ DEFENSIVE PLAY: China Telecom 0728</h3>
+    <p style="margin-top:8px; font-size:14px;">
+        Telecoms are crisis-resistant — less oil-sensitive. RSI 37 = cheap entry. Steady dividend payer.
+        Money hides in defensive names during geopolitical shocks.
+        <strong>Suggested allocation: 2-3% of portfolio.</strong>
+    </p>
+</div>
+
+<div class="callout callout-warning">
+    <h3>🎯 SPECULATIVE: CTG 1880</h3>
+    <p style="margin-top:8px; font-size:14px;">
+        Great R:R (14.7:1) IF Hormuz resolves. Consumer stocks get hit in oil crises — this is a bet on resolution.
+        Tight stop at 61.50 limits downside. Smaller position size recommended.
+        <strong>Suggested allocation: 1-2% of portfolio.</strong>
+    </p>
+</div>
+
+<div class="callout callout-danger">
+    <h3>⛔ AVOID RIGHT NOW</h3>
+    <p style="margin-top:8px; font-size:14px;">
+        <strong>Trip.com 9961</strong> — Travel stock directly hit by oil spike / geopolitical fear. Wait for Hormuz resolution.<br>
+        <strong>Meituan 3690</strong> — Already bounced +8.4% this month. RSI 56 not oversold enough. Wide -16.6% stop = bad R:R.<br>
+        <strong>Sanhua 2050</strong> — Industrials hurt by oil/inflation. No clear signal. Wait.
+    </p>
+</div>
+
+<!-- KEY LEVELS -->
+<h2>🎯 Key Levels — All 10 Stocks</h2>
+<table>
+    <tr>
+        <th>Stock</th>
+        <th>Close</th>
+        <th>Support</th>
+        <th>Resistance</th>
+        <th>52W Low</th>
+        <th>52W High</th>
+        <th>Position %</th>
+    </tr>
+    <tr><td>Longyuan 0916</td><td>6.550</td><td><strong>6.457</strong></td><td>8.513</td><td>5.96</td><td>8.66</td><td>21.9%</td></tr>
+    <tr><td>CTG 1880</td><td>64.300</td><td><strong>63.400</strong></td><td>105.567</td><td>48.30</td><td>107.00</td><td>27.3%</td></tr>
+    <tr><td>Meituan 3690</td><td>85.750</td><td><strong>73.700</strong></td><td>106.100</td><td>73.60</td><td>149.80</td><td>15.9%</td></tr>
+    <tr><td>China Telecom 0728</td><td>4.980</td><td><strong>4.780</strong></td><td>5.450</td><td>4.75</td><td>6.49</td><td>13.2%</td></tr>
+    <tr><td>China Tower 0788</td><td>10.800</td><td><strong>10.537</strong></td><td>11.633</td><td>10.44</td><td>12.85</td><td>14.9%</td></tr>
+    <tr><td>Trip.com 9961</td><td>394.200</td><td><strong>380.267</strong></td><td>607.667</td><td>376.00</td><td>613.00</td><td>7.7%</td></tr>
+    <tr><td>HKEX 0388</td><td>402.400</td><td><strong>380.600</strong></td><td>443.133</td><td>320.00</td><td>466.00</td><td>56.4%</td></tr>
+    <tr><td>Ping An 2318</td><td>61.300</td><td><strong>57.367</strong></td><td>74.317</td><td>42.80</td><td>74.70</td><td>58.0%</td></tr>
+    <tr><td>CR Power 0836</td><td>18.720</td><td><strong>17.070</strong></td><td>19.587</td><td>16.90</td><td>21.45</td><td>40.0%</td></tr>
+    <tr><td>Sanhua 2050</td><td>30.000</td><td><strong>27.840</strong></td><td>40.127</td><td>20.70</td><td>46.48</td><td>36.1%</td></tr>
+</table>
+
+<!-- BOTTOM LINE -->
+<div class="callout callout-success" style="margin-top: 30px;">
+    <h3>⚡ BOTTOM LINE</h3>
+    <p style="margin-top: 10px; font-size: 15px; line-height: 1.8;">
+        In a Hormuz blockade crisis, <strong>quality oversold bounces and defensive names</strong> are your best bets.<br><br>
+        🥇 <strong>Longyuan 0916</strong> — Best risk/reward. RSI 19 = textbook capitulation. Tight 1.4% stop.<br>
+        🛡️ <strong>China Telecom 0728</strong> — Crisis-safe defensive. Telecom = money hiding spot.<br>
+        🎯 <strong>CTG 1880</strong> — Speculative bet on Hormuz resolution. 14.7:1 R:R.<br><br>
+        ⛔ Avoid travel (Trip.com) and industrials (Sanhua) until oil stabilizes.<br>
+        ⚠️ All trades are tactical — max 5% per position, cash is king.
+    </p>
+</div>
+
+<!-- STRATEGIC REMINDERS -->
+<h2>💡 Framework Mantra</h2>
+<table>
+    <tr><th>Principle</th><th>Application Today</th></tr>
+    <tr><td>油價定生死</td><td>Oil $104.77 — if breaks $110, reduce all equity exposure</td></tr>
+    <tr><td>持盈保泰</td><td>Preserve capital — tight stops, small positions</td></tr>
+    <tr><td>顺势而为</td><td>8/10 stocks in bearish trend — respect the trend</td></tr>
+    <tr><td>現金為王</td><td>Cash is the best hedge when oil is spiking</td></tr>
+    <tr><td>在轉折點部署</td><td>Apr 19-25 cycle window (score 116) — next major turning point</td></tr>
+</table>
+
+</div><!-- /content -->
+
+<!-- FOOTER -->
+<div class="footer">
+    <p><strong>HSI-Mimoclaw Framework v11.1</strong> | Stock Cycling Analyzer v2.1 (小龍 Enhanced Methodology)</p>
+    <p>Zhou Jintao 4-Cycle Theory + Gann Theory + 24 Solar Terms</p>
+    <p style="margin-top: 8px;">Generated: April 13, 2026 12:33 HKT | Data: Yahoo Finance | cyclingAi</p>
+    <p style="margin-top: 4px; font-size: 11px; color: #aaa;">⚠️ Disclaimer: Technical analysis using RSI, MACD, Bollinger Bands, Stochastic, and MA crossovers. Historical hit rate ~21%. This is NOT financial advice. Always conduct your own research and manage risk appropriately.</p>
+</div>
+
+</div><!-- /report -->
+</div><!-- /container -->
+</body>
+</html>
