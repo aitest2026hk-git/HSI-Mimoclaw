@@ -1,0 +1,78 @@
+{
+  "cycles": [
+    {
+      "test_period": "2020-2020",
+      "predictions": 11,
+      "accuracy": 36.36363636363637,
+      "high_conf": 8,
+      "high_conf_acc": 37.5
+    },
+    {
+      "test_period": "2021-2021",
+      "predictions": 11,
+      "accuracy": 45.45454545454545,
+      "high_conf": 10,
+      "high_conf_acc": 50.0
+    },
+    {
+      "test_period": "2022-2022",
+      "predictions": 11,
+      "accuracy": 36.36363636363637,
+      "high_conf": 11,
+      "high_conf_acc": 36.36363636363637
+    },
+    {
+      "test_period": "2023-2023",
+      "predictions": 11,
+      "accuracy": 27.27272727272727,
+      "high_conf": 11,
+      "high_conf_acc": 27.27272727272727
+    },
+    {
+      "test_period": "2024-2024",
+      "predictions": 10,
+      "accuracy": 30.0,
+      "high_conf": 9,
+      "high_conf_acc": 22.22222222222222
+    },
+    {
+      "test_period": "2025-2025",
+      "predictions": 12,
+      "accuracy": 25.0,
+      "high_conf": 10,
+      "high_conf_acc": 30.0
+    },
+    {
+      "test_period": "2026-2026",
+      "predictions": 2,
+      "accuracy": 0.0,
+      "high_conf": 1,
+      "high_conf_acc": 0.0
+    }
+  ],
+  "aggregate": {
+    "total": 68,
+    "accuracy": 32.35294117647059,
+    "high_conf": 60,
+    "high_conf_acc": 33.33333333333333,
+    "major_drops": 2,
+    "md_pred": 0,
+    "md_recall": 0.0,
+    "major_rallies": 6,
+    "mr_pred": 3,
+    "mr_recall": 50.0,
+    "bullish": 31,
+    "bearish": 35,
+    "bias": 53.03030303030303,
+    "conf_calibration": {
+      "60-69": 25.0,
+      "70-79": 40.0,
+      "80-89": 14.285714285714285
+    },
+    "high_solar_count": 1,
+    "high_solar_acc": 100.0,
+    "low_solar_count": 57,
+    "low_solar_acc": 31.57894736842105
+  },
+  "timestamp": "2026-03-10T03:16:40.183062+00:00"
+}

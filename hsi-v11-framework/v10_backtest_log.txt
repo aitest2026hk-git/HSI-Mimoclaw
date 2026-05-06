@@ -1,0 +1,72 @@
+================================================================================
+HSI v10 - TREND-FOLLOWING + SOLAR TERM CONFLUENCE (江恩小龍)
+================================================================================
+
+Loading HSI data...
+Loaded 13865 points (1969-11-24 to 2026-02-25)
+
+Finding major extremes...
+50 tops, 72 bottoms
+
+================================================================================
+LOADING SOLAR TERM CONFLUENCE DATA (江恩小龍 Methodology)
+================================================================================
+Loading solar term signals for 1968-2027...
+Generated 2412 total signals from 18 pivots
+Loaded 20548 days of solar term confluence data
+
+================================================================================
+RUNNING WALK-FORWARD BACKTEST (v10)
+================================================================================
+
+--- Walk-Forward Cycle Results ---
+2020-2020: 36.4% acc, 11 preds ⚠️
+2021-2021: 45.5% acc, 11 preds ⚠️
+2022-2022: 36.4% acc, 11 preds ⚠️
+2023-2023: 27.3% acc, 11 preds ⚠️
+2024-2024: 30.0% acc, 10 preds ⚠️
+2025-2025: 25.0% acc, 12 preds ⚠️
+2026-2026: 0.0% acc, 2 preds ⚠️
+
+================================================================================
+AGGREGATE PERFORMANCE
+================================================================================
+Total Predictions: 68
+Overall Accuracy: 32.4%
+High Confidence (70%+): 60 predictions @ 33.3% acc
+Major Drop Recall: 0.0% (0/2)
+Major Rally Recall: 50.0% (3/6)
+Bias: 53.0% bearish
+
+================================================================================
+SOLAR TERM CORRELATION (NEW v10)
+================================================================================
+High Solar (50+ pts): 1 predictions @ 100.0% acc
+Low Solar (<30 pts): 57 predictions @ 31.6% acc
+Solar Term Edge: 68.4 percentage points
+
+================================================================================
+CURRENT ANALYSIS (Feb 20, 2026)
+================================================================================
+Prediction: BULLISH
+Confidence: 69%
+Risk Score: 38/100
+Expected Move (90d): 7.8%
+Trend Score: 0.40
+Momentum Score: -0.08
+Volume Score: 0.15
+Solar Confluence: 20 pts (LOW)
+Solar Bonus: +0% confidence
+
+Signals:
+  • OBV: BULLISH (OBV rising)
+
+================================================================================
+Status saved to hsi_status.json
+================================================================================
+WFO summary saved to hsi_v10_wfo_summary.json
+Results saved to hsi_backtest_v10_results.csv
+
+================================================================================
+V10 DEVELOPMENT COMPLETE
+================================================================================

@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HSI v11 Update — April 13, 2026 | Hormuz Blockade Crisis</title>
+    <style>
+        :root {
+            --red: #e74c3c;
+            --green: #27ae60;
+            --amber: #f39c12;
+            --blue: #2980b9;
+            --dark: #2c3e50;
+            --light: #ecf0f1;
+            --white: #ffffff;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; background: #f0f2f5; color: #333; line-height: 1.6; }
+        .container { max-width: 1100px; margin: 0 auto; padding: 20px; }
+        .report { background: var(--white); border-radius: 12px; box-shadow: 0 4px 24px rgba(0,0,0,0.08); overflow: hidden; }
+
+        /* Header */
+        .header { background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460); color: white; padding: 40px; text-align: center; }
+        .header h1 { font-size: 28px; margin-bottom: 6px; letter-spacing: 1px; }
+        .header .tagline { font-size: 14px; opacity: 0.7; margin-bottom: 16px; }
+        .header .date-badge { display: inline-block; background: rgba(255,255,255,0.15); padding: 6px 18px; border-radius: 20px; font-size: 13px; backdrop-filter: blur(4px); }
+
+        /* Alert Banner */
+        .alert-banner { background: linear-gradient(90deg, #c0392b, #e74c3c); color: white; padding: 20px 40px; display: flex; align-items: center; gap: 16px; }
+        .alert-banner .icon { font-size: 36px; }
+        .alert-banner .text h2 { font-size: 20px; margin-bottom: 4px; }
+        .alert-banner .text p { font-size: 14px; opacity: 0.9; }
+
+        /* Content */
+        .content { padding: 30px 40px; }
+        h2 { color: var(--dark); font-size: 20px; margin: 30px 0 16px; padding-bottom: 8px; border-bottom: 2px solid var(--light); display: flex; align-items: center; gap: 8px; }
+        h3 { color: var(--dark); font-size: 16px; margin: 20px 0 10px; }
+
+        /* Tables */
+        table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+        th { background: var(--dark); color: white; padding: 10px 14px; text-align: left; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+        td { padding: 10px 14px; border-bottom: 1px solid #eee; }
+        tr:hover { background: #f8f9fa; }
+
+        /* Signal Badges */
+        .signal { display: inline-block; padding: 3px 10px; border-radius: 12px; font-size: 12px; font-weight: 700; }
+        .signal-red { background: #fde8e8; color: var(--red); }
+        .signal-amber { background: #fef3e2; color: var(--amber); }
+        .signal-green { background: #e8f8f0; color: var(--green); }
+        .signal-blue { background: #e8f0fe; color: var(--blue); }
+
+        /* Scenario Boxes */
+        .scenarios { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin: 16px 0; }
+        .scenario { border-radius: 8px; padding: 16px; border-left: 4px solid; }
+        .scenario-bullish { background: #e8f8f0; border-color: var(--green); }
+        .scenario-neutral { background: #fef9e7; border-color: var(--amber); }
+        .scenario-bearish { background: #fde8e8; border-color: var(--red); }
+        .scenario h4 { font-size: 14px; margin-bottom: 8px; }
+        .scenario .prob { font-size: 12px; opacity: 0.7; margin-bottom: 8px; }
+        .scenario ul { font-size: 13px; padding-left: 16px; }
+        .scenario li { margin-bottom: 4px; }
+
+        /* Callout Boxes */
+        .callout { border-radius: 8px; padding: 20px; margin: 16px 0; }
+        .callout-danger { background: #fde8e8; border: 1px solid #f5c6cb; }
+        .callout-success { background: #e8f8f0; border: 1px solid #c3e6cb; }
+        .callout-info { background: #e8f0fe; border: 1px solid #b8daff; }
+        .callout-warning { background: #fef3e2; border: 1px solid #ffd93d; }
+        .callout h3 { margin-top: 0; }
+
+        /* Timeline */
+        .timeline { position: relative; padding-left: 30px; margin: 16px 0; }
+        .timeline::before { content: ''; position: absolute; left: 10px; top: 0; bottom: 0; width: 2px; background: #ddd; }
+        .timeline-item { position: relative; margin-bottom: 20px; }
+        .timeline-item::before { content: ''; position: absolute; left: -24px; top: 4px; width: 12px; height: 12px; border-radius: 50%; background: var(--blue); border: 2px solid white; box-shadow: 0 0 0 2px var(--blue); }
+        .timeline-item.active::before { background: var(--red); box-shadow: 0 0 0 2px var(--red), 0 0 8px var(--red); }
+        .timeline-item .date { font-size: 12px; font-weight: 700; color: var(--blue); }
+        .timeline-item .desc { font-size: 14px; }
+
+        /* Meter */
+        .meter-row { display: flex; align-items: center; gap: 12px; margin: 8px 0; }
+        .meter-label { width: 120px; font-size: 13px; font-weight: 600; }
+        .meter-bar { flex: 1; height: 10px; background: #eee; border-radius: 5px; overflow: hidden; }
+        .meter-fill { height: 100%; border-radius: 5px; transition: width 0.5s; }
+        .meter-value { width: 50px; text-align: right; font-size: 13px; font-weight: 700; }
+
+        /* Action Items */
+        .action-list { list-style: none; padding: 0; }
+        .action-list li { padding: 10px 14px; margin: 6px 0; border-radius: 6px; display: flex; align-items: flex-start; gap: 10px; font-size: 14px; }
+        .action-list li .priority { font-size: 16px; flex-shrink: 0; }
+        .action-critical { background: #fde8e8; }
+        .action-high { background: #fef3e2; }
+        .action-medium { background: #e8f0fe; }
+
+        /* Footer */
+        .footer { background: var(--light); padding: 20px 40px; text-align: center; font-size: 12px; color: #888; }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .content { padding: 20px; }
+            .scenarios { grid-template-columns: 1fr; }
+            .alert-banner { flex-direction: column; text-align: center; }
+            .header h1 { font-size: 22px; }
+        }
+        @media print {
+            body { background: white; }
+            .report { box-shadow: none; border: 1px solid #ddd; }
+            .alert-banner { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+<div class="report">
+
+<!-- HEADER -->
+<div class="header">
+    <h1>🚨 HSI v11 CRISIS UPDATE</h1>
+    <div class="tagline">Zhou Jintao 4-Cycle + 小龍 Gann Theory (v11.1) + Stock Cycling Analyzer v2.1</div>
+    <div class="date-badge">📅 April 13, 2026 (Monday) — 11:58 HKT</div>
+</div>
+
+<!-- ALERT BANNER -->
+<div class="alert-banner">
+    <div class="icon">⚠️</div>
+    <div class="text">
+        <h2>SCENARIO C ACTIVATED — Hormuz Blockade</h2>
+        <p>US-Iran peace talks collapsed after 21 hours. Trump announced US Navy blockade of Strait of Hormuz starting today 14:00 GMT. Oil spiked +8.5% to $104.77. Full defensive posture recommended.</p>
+    </div>
+</div>
+
+<div class="content">
+
+<!-- MARKET SNAPSHOT -->
+<h2>📊 Market Snapshot — April 13, 2026</h2>
+<table>
+    <tr>
+        <th>Asset</th>
+        <th>Price</th>
+        <th>Change</th>
+        <th>Signal</th>
+        <th>Key Level</th>
+    </tr>
+    <tr>
+        <td><strong>🛢️ WTI Crude Oil</strong></td>
+        <td><strong>$104.77</strong></td>
+        <td style="color: var(--red); font-weight: 700;">+8.49%</td>
+        <td><span class="signal signal-red">🔴 DANGER</span></td>
+        <td>$110 = crisis</td>
+    </tr>
+    <tr>
+        <td><strong>🥇 Gold</strong></td>
+        <td><strong>$4,747/oz</strong></td>
+        <td style="color: var(--green);">Safe haven bid</td>
+        <td><span class="signal signal-green">🟢 RALLYING</span></td>
+        <td>$5,000+ if escalation</td>
+    </tr>
+    <tr>
+        <td><strong>📈 S&P 500</strong></td>
+        <td>6,816.89 (Fri)</td>
+        <td style="color: var(--red);">-0.11%</td>
+        <td><span class="signal signal-amber">🟡 AT RISK</span></td>
+        <td>6,500 support</td>
+    </tr>
+    <tr>
+        <td><strong>🇭🇰 HSI</strong></td>
+        <td>~25,806 (Apr 9)</td>
+        <td style="color: var(--red);">Gap down expected</td>
+        <td><span class="signal signal-red">🔴 BEARISH</span></td>
+        <td>25,000 / 24,000</td>
+    </tr>
+    <tr>
+        <td><strong>📉 VIX</strong></td>
+        <td>~20.35 (Fri)</td>
+        <td style="color: var(--red);">Likely spiking</td>
+        <td><span class="signal signal-red">🔴 FEAR</span></td>
+        <td>28-32 expected</td>
+    </tr>
+    <tr>
+        <td><strong>💵 USD Index</strong></td>
+        <td>98.58</td>
+        <td style="color: var(--red);">-1.28%</td>
+        <td><span class="signal signal-amber">🟡 WEAK</span></td>
+        <td>Watch for flight-to-safety</td>
+    </tr>
+</table>
+
+<!-- GEOPOLITICAL SITUATION -->
+<h2>🌍 Geopolitical Situation — What Happened</h2>
+
+<div class="callout callout-danger">
+    <h3>🔴 Iran Peace Talks COLLAPSED</h3>
+    <ul style="margin-top: 10px; padding-left: 20px; font-size: 14px;">
+        <li><strong>21 hours of negotiations in Islamabad failed</strong> — no agreement reached</li>
+        <li>US accused Tehran of refusing to curb nuclear ambitions</li>
+        <li>Iran demanded: control of Strait of Hormuz, war reparations, broader ceasefire (including Lebanon), access to frozen overseas assets</li>
+        <li><strong>Trump announced US Navy blockade of Strait of Hormuz</strong> — blocks all traffic entering/exiting Iranian ports</li>
+        <li>Blockade starts <strong>TODAY at 14:00 GMT (10:00 PM HKT)</strong></li>
+        <li>Iran IRGC warns: any military vessel approaching Hormuz "will be dealt with severely"</li>
+        <li>800+ ships still stuck in Gulf — normalization impossible under blockade</li>
+    </ul>
+</div>
+
+<!-- FRAMEWORK ASSESSMENT -->
+<h2>🔮 Framework Assessment</h2>
+
+<div class="callout callout-warning">
+    <h3>⚡ Scenario C ACTIVATED — From ACTION_PLAN_APR-AUG_2026.md</h3>
+    <p style="margin-top: 8px; font-size: 14px;">The master action plan assigned Scenario C a 25% probability. It has now materialized.</p>
+</div>
+
+<h3>Scenario Matrix (from Framework)</h3>
+<div class="scenarios">
+    <div class="scenario scenario-bullish">
+        <h4>🟢 Scenario A: Deal</h4>
+        <div class="prob">Was 30% — Now ~5%</div>
+        <ul>
+            <li>HSI → 27,000-28,000</li>
+            <li>Oil → $75-85</li>
+            <li>Deploy 75-100%</li>
+        </ul>
+    </div>
+    <div class="scenario scenario-neutral">
+        <h4>🟡 Scenario B: Stalemate</h4>
+        <div class="prob">Was 45% — Now ~20%</div>
+        <ul>
+            <li>HSI → 25,000-26,500</li>
+            <li>Oil → $90-105</li>
+            <li>Trade the range</li>
+        </ul>
+    </div>
+    <div class="scenario scenario-bearish" style="border-width: 6px; box-shadow: 0 0 12px rgba(231,76,60,0.3);">
+        <h4>🔴 Scenario C: War Resumes ✅ ACTIVE</h4>
+        <div class="prob">Was 25% — Now ~75%</div>
+        <ul>
+            <li>HSI → 24,000-24,500</li>
+            <li>Oil → $110-120</li>
+            <li>0% equities, 100% defensive</li>
+        </ul>
+    </div>
+</div>
+
+<!-- OIL DANGER METER -->
+<h2>🛢️ Oil Danger Meter</h2>
+<p style="font-size: 14px; color: #666; margin-bottom: 12px;">Framework's critical oil thresholds — determines portfolio posture</p>
+
+<div class="meter-row">
+    <div class="meter-label">$85 Support</div>
+    <div class="meter-bar"><div class="meter-fill" style="width: 85%; background: linear-gradient(90deg, #27ae60, #27ae60 70%, #f39c12);"></div></div>
+    <div class="meter-value" style="color: var(--green);">Bullish</div>
+</div>
+<div class="meter-row">
+    <div class="meter-label">$94 (Apr 9)</div>
+    <div class="meter-bar"><div class="meter-fill" style="width: 78%; background: linear-gradient(90deg, #27ae60, #f39c12);"></div></div>
+    <div class="meter-value" style="color: var(--amber);">Watching</div>
+</div>
+<div class="meter-row">
+    <div class="meter-label" style="font-weight: 800; color: var(--red);">$104.77 NOW</div>
+    <div class="meter-bar"><div class="meter-fill" style="width: 87%; background: linear-gradient(90deg, #f39c12, #e74c3c);"></div></div>
+    <div class="meter-value" style="color: var(--red); font-weight: 800;">⚠️ DANGER</div>
+</div>
+<div class="meter-row">
+    <div class="meter-label">$110 Danger</div>
+    <div class="meter-bar"><div class="meter-fill" style="width: 92%; background: linear-gradient(90deg, #e74c3c, #c0392b);"></div></div>
+    <div class="meter-value" style="color: var(--red);">40% equity</div>
+</div>
+<div class="meter-row">
+    <div class="meter-label">$120 CATASTROPHE</div>
+    <div class="meter-bar"><div class="meter-fill" style="width: 100%; background: #c0392b;"></div></div>
+    <div class="meter-value" style="color: #c0392b; font-weight: 800;">0% equity</div>
+</div>
+
+<!-- HSI PUT OPTION -->
+<h2>🎯 HSI Put Option — Hedge Position</h2>
+
+<div class="callout callout-info">
+    <h3>🛡️ Your Put May Revive</h3>
+    <table style="margin-top: 12px;">
+        <tr><th>Detail</th><th>Value</th><th>Note</th></tr>
+        <tr><td>Strike</td><td><strong>24,800</strong></td><td>Below current HSI</td></tr>
+        <tr><td>Entry Premium</td><td>0.40</td><td></td></tr>
+        <tr><td>Current Premium</td><td>0.06</td><td>Down 85%</td></tr>
+        <tr><td>Expiry</td><td>End of April 2026</td><td>17 days remaining</td></tr>
+        <tr><td>Decision Date</td><td><strong>April 20</strong></td><td>Aligned with cycle window</td></tr>
+    </table>
+    <p style="margin-top: 12px; font-size: 14px;"><strong>Assessment:</strong> The Hormuz blockade is EXACTLY the scenario this hedge was designed for. If HSI drops toward 24,000-24,800, this put could recover significantly. <strong>HOLD through April 20 decision date.</strong></p>
+</div>
+
+<!-- CYCLE WINDOW -->
+<h2>📅 April 19-25 — THE CYCLE WINDOW</h2>
+
+<div class="callout callout-danger">
+    <h3>⭐ Score: 116 — 2nd Highest Confluence of 2026</h3>
+    <p style="margin-top: 8px; font-size: 14px;">This cycle window now converges with the Hormuz blockade crisis, creating potentially the biggest market event of the year.</p>
+</div>
+
+<table>
+    <tr><th>Factor</th><th>Points</th><th>Details</th></tr>
+    <tr><td>穀雨 (Grain Rain) Solar Term</td><td>+8</td><td>Tier 2 seasonal transition</td></tr>
+    <tr><td>2yr anniversary of 2024-04-20 pivot</td><td>+26</td><td>Major cycle alignment</td></tr>
+    <tr><td>√27² from 2024-04-20</td><td>+22</td><td>Square root cycle</td></tr>
+    <tr><td>Gann Square 729</td><td>+18</td><td>Number vibration</td></tr>
+    <tr><td>Multiple confluence signals</td><td>+42</td><td>Peak alignment</td></tr>
+    <tr style="background: #fde8e8;"><td><strong>TOTAL</strong></td><td><strong>116</strong></td><td><strong>VERY HIGH + Geopolitical Amplifier</strong></td></tr>
+</table>
+
+<!-- TIMELINE -->
+<h2>📆 Critical Dates Ahead</h2>
+
+<div class="timeline">
+    <div class="timeline-item active">
+        <div class="date">🔴 TODAY — April 13</div>
+        <div class="desc">Hormuz blockade begins at 14:00 GMT. Markets react. Oil open in Asia.</div>
+    </div>
+    <div class="timeline-item">
+        <div class="date">📅 April 15-16</div>
+        <div class="desc">Iran ceasefire 2-week midpoint — any military response from IRGC?</div>
+    </div>
+    <div class="timeline-item">
+        <div class="date">📅 April 17</div>
+        <div class="desc">ECB meeting — global rate signal, could amplify/suppress risk sentiment</div>
+    </div>
+    <div class="timeline-item" style="color: var(--red);">
+        <div class="date" style="color: var(--red);">⭐ April 19-25 — PEAK CYCLE WINDOW</div>
+        <div class="desc"><strong>Score 116 + Hormuz crisis = Maximum volatility. THIS IS THE DECISION POINT.</strong></div>
+    </div>
+    <div class="timeline-item">
+        <div class="date">📅 April 20</div>
+        <div class="desc">HSI Put Option decision date — review and act per decision rules</div>
+    </div>
+    <div class="timeline-item">
+        <div class="date">📅 April 22</div>
+        <div class="desc">Original ceasefire expiry date — full escalation likely if no new talks</div>
+    </div>
+    <div class="timeline-item">
+        <div class="date">📅 May 6-22</div>
+        <div class="desc">HIGHEST confluence of 2026 (Score 117) — second critical window</div>
+    </div>
+</div>
+
+<!-- ACTION PLAN -->
+<h2>✅ Action Plan — What To Do Now</h2>
+
+<h3>🔴 Immediate (Today — April 13)</h3>
+<ul class="action-list">
+    <li class="action-critical"><span class="priority">🚫</span><span><strong>DO NOT BUY ANYTHING.</strong> Wait for markets to digest the Hormuz blockade. No new equity positions.</span></li>
+    <li class="action-critical"><span class="priority">🛢️</span><span><strong>Monitor oil $110 and $120.</strong> $110 = reduce equity to 40%. $120 = go to 0% equities immediately.</span></li>
+    <li class="action-critical"><span class="priority">🛡️</span><span><strong>HOLD your HSI put option.</strong> This is the exact scenario it was designed for. Decision on April 20.</span></li>
+    <li class="action-critical"><span class="priority">💰</span><span><strong>Ensure cash reserves at 75-100%.</strong> Cash is king during uncertainty (現金為王).</span></li>
+</ul>
+
+<h3>🟡 This Week (April 13-18)</h3>
+<ul class="action-list">
+    <li class="action-high"><span class="priority">🚢</span><span><strong>Monitor Hormuz tanker traffic</strong> — Is the blockade actually enforced? Track via MarineTraffic/Kpler.</span></li>
+    <li class="action-high"><span class="priority">⚡</span><span><strong>Watch for IRGC escalation</strong> — Any military response = oil to $110-120+, maximum defense.</span></li>
+    <li class="action-high"><span class="priority">🔔</span><span><strong>Set price alerts:</strong> Oil $110, Oil $120, HSI 25,000, HSI 24,500, HSI 24,000</span></li>
+    <li class="action-high"><span class="priority">📋</span><span><strong>Build your buy list</strong> — HSI 23,200-23,500 is the framework's ultimate buy zone.</span></li>
+</ul>
+
+<h3>🟢 April 19-25 — The Decision Point</h3>
+<ul class="action-list">
+    <li class="action-critical"><span class="priority">⭐</span><span><strong>If HSI hits 23,200-23,500:</strong> DEPLOY 50-75% of cash into quality stocks. This is the framework's maximum buy signal.</span></li>
+    <li class="action-critical"><span class="priority">🛢️</span><span><strong>If oil breaks $120:</strong> Go to 0% equities, 100% defensive. Catastrophe mode.</span></li>
+    <li class="action-high"><span class="priority">📈</span><span><strong>If last-minute deal emerges:</strong> Ride the snap-back rally but keep stops tight (-12% portfolio).</span></li>
+</ul>
+
+<!-- BUY ZONES -->
+<h2>💼 Stock Buy Zones — For the Crash</h2>
+<p style="font-size: 14px; color: #666; margin-bottom: 12px;">Do NOT buy yet. These are target levels IF HSI drops to 23,200-25,000 zone.</p>
+
+<table>
+    <tr>
+        <th>#</th>
+        <th>Stock</th>
+        <th>Code</th>
+        <th>Sector</th>
+        <th>Apr 9 Price</th>
+        <th>Buy Zone</th>
+        <th>If HSI 23,500</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td><strong>Tencent</strong></td>
+        <td>0700.HK</td>
+        <td>Technology</td>
+        <td>518.00</td>
+        <td>440-479</td>
+        <td>~420-450</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td><strong>HSBC</strong></td>
+        <td>0005.HK</td>
+        <td>Financials</td>
+        <td>145.50</td>
+        <td>131-138</td>
+        <td>~120-130</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td><strong>AIA</strong></td>
+        <td>1299.HK</td>
+        <td>Financials</td>
+        <td>86.00</td>
+        <td>77-82</td>
+        <td>~70-75</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td><strong>Alibaba</strong></td>
+        <td>9988.HK</td>
+        <td>Technology</td>
+        <td>145.20</td>
+        <td>123-138</td>
+        <td>~110-125</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td><strong>Sun Hung Kai</strong></td>
+        <td>0016.HK</td>
+        <td>Properties</td>
+        <td>139.60</td>
+        <td>123-133</td>
+        <td>~110-120</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td><strong>Xiaomi</strong></td>
+        <td>1810.HK</td>
+        <td>Technology</td>
+        <td>35.60</td>
+        <td>30-34</td>
+        <td>~27-30</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td><strong>Bank of China</strong></td>
+        <td>3988.HK</td>
+        <td>Financials</td>
+        <td>4.66</td>
+        <td>4.19-4.43</td>
+        <td>~3.80-4.10</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td><strong>CCB</strong></td>
+        <td>0939.HK</td>
+        <td>Financials</td>
+        <td>8.05</td>
+        <td>7.25-7.65</td>
+        <td>~6.60-7.10</td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td><strong>CK Asset</strong></td>
+        <td>1113.HK</td>
+        <td>Properties</td>
+        <td>47.52</td>
+        <td>41.82-44.67</td>
+        <td>~38-42</td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td><strong>CLP</strong></td>
+        <td>0002.HK</td>
+        <td>Utilities</td>
+        <td>74.60</td>
+        <td>68.63-71.62</td>
+        <td>~63-67</td>
+    </tr>
+</table>
+
+<!-- PORTFOLIO ALLOCATION -->
+<h2>💰 Portfolio Allocation Guide</h2>
+
+<table>
+    <tr>
+        <th>Component</th>
+        <th>Current (Scenario C)</th>
+        <th>If Oil < $110</th>
+        <th>If Oil > $120</th>
+        <th>If HSI hits 23,200</th>
+    </tr>
+    <tr>
+        <td><strong>Equities</strong></td>
+        <td style="color: var(--red); font-weight: 700;">0-25%</td>
+        <td>0-25%</td>
+        <td style="color: var(--red); font-weight: 700;">0%</td>
+        <td style="color: var(--green); font-weight: 700;">50-75%</td>
+    </tr>
+    <tr>
+        <td><strong>Cash</strong></td>
+        <td style="color: var(--green); font-weight: 700;">75-100%</td>
+        <td>75-100%</td>
+        <td style="color: var(--green); font-weight: 700;">100%</td>
+        <td>25-50%</td>
+    </tr>
+    <tr>
+        <td><strong>Gold / Safe Haven</strong></td>
+        <td>Optional</td>
+        <td>Optional</td>
+        <td>Recommended</td>
+        <td>Reduce</td>
+    </tr>
+    <tr>
+        <td><strong>HSI Put Hedge</strong></td>
+        <td style="color: var(--green);">✅ HOLD</td>
+        <td>HOLD</td>
+        <td>Keep through expiry</td>
+        <td>Let expire / roll</td>
+    </tr>
+</table>
+
+<!-- KEY LEVELS CHEAT SHEET -->
+<h2>🎯 Key Levels — Cheat Sheet</h2>
+
+<table>
+    <tr><th>Asset</th><th>Level</th><th>Meaning</th><th>Action</th></tr>
+    <tr style="background: #fde8e8;"><td>Oil</td><td><strong>$120</strong></td><td>CATASTROPHE — 4th top</td><td>0% equities immediately</td></tr>
+    <tr style="background: #fef3e2;"><td>Oil</td><td><strong>$110</strong></td><td>Danger zone</td><td>Reduce equity to 40%</td></tr>
+    <tr style="background: #fef9e7;"><td>Oil</td><td>$104.77</td><td>← Current</td><td>Watch closely</td></tr>
+    <tr><td>Oil</td><td>$90</td><td>Support</td><td>Bullish if holds</td></tr>
+    <tr style="background: #fde8e8;"><td>HSI</td><td><strong>23,200-23,500</strong></td><td>★ BUY ZONE</td><td>Deploy 50-75% cash</td></tr>
+    <tr><td>HSI</td><td>24,000-24,500</td><td>Support / Accumulate</td><td>Begin nibbling</td></tr>
+    <tr><td>HSI</td><td>25,000</td><td>Key support</td><td>Watch for hold/break</td></tr>
+    <tr style="background: #fef9e7;"><td>HSI</td><td>~25,800</td><td>← Last known (Apr 9)</td><td>Expect gap down</td></tr>
+    <tr><td>Gold</td><td>$5,000+</td><td>Crisis spike</td><td>Sell into strength</td></tr>
+    <tr><td>Gold</td><td>$4,500</td><td>Support</td><td>Buy if holds</td></tr>
+</table>
+
+<!-- BOTTOM LINE -->
+<div class="callout callout-danger" style="margin-top: 30px;">
+    <h3>⚡ BOTTOM LINE</h3>
+    <p style="margin-top: 10px; font-size: 15px; line-height: 1.8;">
+        <strong>The Hormuz blockade is a BLACK SWAN that activates your Scenario C playbook.</strong><br><br>
+        Your framework was built for exactly this moment:<br>
+        ✅ You have a <strong>put option hedge</strong> in place (24,800 strike, may revive)<br>
+        ✅ You have a clear <strong>buy zone mapped</strong> (23,200-23,500)<br>
+        ✅ You have the <strong>Apr 19-25 cycle window</strong> (score 116) converging with this crisis<br>
+        ✅ You know the <strong>danger levels</strong> (oil $110/$120)<br><br>
+        <strong>Right now: DEFEND. Cash is king. Wait for the cycle window, then deploy if conditions align.</strong><br><br>
+        <span style="font-size: 18px;">🛢️ 油價定生死 — Oil price determines life or death.</span>
+    </p>
+</div>
+
+<!-- STRATEGIC REMINDERS -->
+<h2>💡 Strategic Reminders</h2>
+<table>
+    <tr><th>Mantra</th><th>Meaning</th><th>Relevance Now</th></tr>
+    <tr><td>顺势而为</td><td>Follow the trend</td><td>Trend is bearish — don't fight it</td></tr>
+    <tr><td>持盈保泰</td><td>Preserve capital, protect profits</td><td>Cash preservation mode</td></tr>
+    <tr><td>油價定生死</td><td>Oil determines everything</td><td>Oil is THE indicator right now</td></tr>
+    <tr><td>周期不是迷信</td><td>Cycles are probability, not certainty</td><td>Stay flexible, use stops</td></tr>
+    <tr><td>現金為王</td><td>Cash is king</td><td>75-100% cash for equities</td></tr>
+    <tr><td>在轉折點部署</td><td>Deploy at turning points</td><td>Apr 19-25 is the next turning point</td></tr>
+</table>
+
+</div><!-- /content -->
+
+<!-- FOOTER -->
+<div class="footer">
+    <p><strong>HSI-Mimoclaw Framework v11.1</strong> | Stock Cycling Analyzer v2.1 (小龍 Enhanced Methodology)</p>
+    <p>Zhou Jintao 4-Cycle Theory + Gann Theory + 24 Solar Terms</p>
+    <p style="margin-top: 8px;">Generated: April 13, 2026 11:58 HKT | cyclingAi</p>
+    <p style="margin-top: 4px; font-size: 11px; color: #aaa;">⚠️ Disclaimer: This analysis uses cyclical timing tools with historical hit rate of 21.1% (±8 days). This is NOT financial advice. Always conduct your own research and manage risk appropriately.</p>
+</div>
+
+</div><!-- /report -->
+</div><!-- /container -->
+</body>
+</html>

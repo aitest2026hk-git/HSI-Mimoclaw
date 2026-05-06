@@ -1,0 +1,14 @@
+CYCLE PHASE TRACKER
+""
+Cycle,Duration,Current Phase,Years in Phase,Next Turning Point,Status,Weight
+Kondratiev (5th Wave),50-60 years,Depression → Recovery,11 (2015-2026),2025-2026,🟢 On Track,30%
+Real Estate (China),~20 years,Late Decline → Recovery,7 (2019-2026),2026-2027,🟡 Watching,20%
+Juglar (Investment),~9 years,Mid-Recovery,3 (2023-2026),2028-2029,🟢 On Track,15%
+Kitchin (Inventory),~18 months,Expansion,9 months,2026 Q3-Q4,🟢 On Track,10%
+""
+TRACKING INDICATORS
+Cycle,Indicator,Frequency,Current Reading,Threshold,Status,Last Check,Next Check
+Kondratiev,AI Investment Growth YoY,Quarterly,>20%,Strong,🟢,2026-Q1,2026-Q2
+Real Estate,HK Property Transactions,Monthly,+15% QoQ,Stabilizing,🟡,2026-Feb,2026-Mar
+Juglar,Fixed Asset Investment,Quarterly,>5%,Moderate,🟢,2026-Q1,2026-Q2
+Kitchin,Inventory/Sales Ratio,Monthly,<1.5,Healthy,🟢,2026-Feb,2026-Mar

@@ -1,0 +1,2465 @@
+{
+  "hsi": {
+    "market": "HSI",
+    "period": "2015-2025",
+    "total_windows": 2193,
+    "total_hits": 293,
+    "overall_hit_rate": 13.360693114455085,
+    "tier_stats": {
+      "1": {
+        "total": 308,
+        "hits": 32,
+        "hit_rate": 10.38961038961039,
+        "avg_move_5d": 0.0810350497767143
+      },
+      "2": {
+        "total": 248,
+        "hits": 28,
+        "hit_rate": 11.29032258064516,
+        "avg_move_5d": 0.1321587314241901
+      },
+      "3": {
+        "total": 1637,
+        "hits": 233,
+        "hit_rate": 14.233353695784972,
+        "avg_move_5d": 0.17361478745909167
+      }
+    },
+    "confidence_stats": {
+      "VERY_HIGH": {
+        "total": 313,
+        "hits": 46,
+        "hit_rate": 14.696485623003195,
+        "avg_move_5d": 0.14062738412608666
+      },
+      "HIGH": {
+        "total": 955,
+        "hits": 143,
+        "hit_rate": 14.973821989528796,
+        "avg_move_5d": 0.18033626221874224
+      },
+      "MEDIUM": {
+        "total": 2193,
+        "hits": 293,
+        "hit_rate": 13.360693114455085,
+        "avg_move_5d": 0.15592410752164168
+      }
+    },
+    "year_stats": {
+      "2015": {
+        "total": 28,
+        "hits": 5,
+        "hit_rate": 17.857142857142858
+      },
+      "2016": {
+        "total": 42,
+        "hits": 3,
+        "hit_rate": 7.142857142857142
+      },
+      "2017": {
+        "total": 101,
+        "hits": 13,
+        "hit_rate": 12.871287128712872
+      },
+      "2018": {
+        "total": 142,
+        "hits": 17,
+        "hit_rate": 11.971830985915492
+      },
+      "2019": {
+        "total": 172,
+        "hits": 29,
+        "hit_rate": 16.86046511627907
+      },
+      "2020": {
+        "total": 230,
+        "hits": 30,
+        "hit_rate": 13.043478260869565
+      },
+      "2021": {
+        "total": 273,
+        "hits": 33,
+        "hit_rate": 12.087912087912088
+      },
+      "2022": {
+        "total": 278,
+        "hits": 31,
+        "hit_rate": 11.151079136690647
+      },
+      "2023": {
+        "total": 280,
+        "hits": 26,
+        "hit_rate": 9.285714285714286
+      },
+      "2024": {
+        "total": 329,
+        "hits": 87,
+        "hit_rate": 26.443768996960486
+      },
+      "2025": {
+        "total": 318,
+        "hits": 19,
+        "hit_rate": 5.9748427672955975
+      }
+    },
+    "avg_move_3d": 0.093554464512985,
+    "avg_move_5d": 0.15592410752164168,
+    "avg_move_10d": 0.31184821504328336,
+    "reversal_rate": 1.68718650250798,
+    "results": [
+      {
+        "window": {
+          "start_date": "2015-03-17 00:00:00",
+          "end_date": "2015-03-25 00:00:00",
+          "center_date": "2015-03-21 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2015-03-18 00:00:00",
+          "end_date": "2015-03-26 00:00:00",
+          "center_date": "2015-03-22 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2015-03-19 00:00:00",
+          "end_date": "2015-03-27 00:00:00",
+          "center_date": "2015-03-23 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2015-03-20 00:00:00",
+          "end_date": "2015-03-28 00:00:00",
+          "center_date": "2015-03-24 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2015-03-21 00:00:00",
+          "end_date": "2015-03-29 00:00:00",
+          "center_date": "2015-03-25 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2015-03-22 00:00:00",
+          "end_date": "2015-03-30 00:00:00",
+          "center_date": "2015-03-26 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2015-03-23 00:00:00",
+          "end_date": "2015-03-31 00:00:00",
+          "center_date": "2015-03-27 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2015-06-16 00:00:00",
+          "end_date": "2015-06-24 00:00:00",
+          "center_date": "2015-06-20 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2015-06-17 00:00:00",
+          "end_date": "2015-06-25 00:00:00",
+          "center_date": "2015-06-21 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2015-06-18 00:00:00",
+          "end_date": "2015-06-26 00:00:00",
+          "center_date": "2015-06-22 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2015-06-19 00:00:00",
+          "end_date": "2015-06-27 00:00:00",
+          "center_date": "2015-06-23 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2015-06-20 00:00:00",
+          "end_date": "2015-06-28 00:00:00",
+          "center_date": "2015-06-24 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": true,
+        "turn_date": "2015-07-08 00:00:00",
+        "days_from_center": 18,
+        "price_change_3d": 0.3224557161279218,
+        "price_change_5d": 0.5374261935465363,
+        "price_change_10d": 1.0748523870930726,
+        "max_move_in_window": 0.8061392903198045,
+        "direction_correct": true,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2015-06-21 00:00:00",
+          "end_date": "2015-06-29 00:00:00",
+          "center_date": "2015-06-25 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": true,
+        "turn_date": "2015-07-08 00:00:00",
+        "days_from_center": 17,
+        "price_change_3d": 0.3224557161279218,
+        "price_change_5d": 0.5374261935465363,
+        "price_change_10d": 1.0748523870930726,
+        "max_move_in_window": 0.8061392903198045,
+        "direction_correct": true,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2015-06-22 00:00:00",
+          "end_date": "2015-06-30 00:00:00",
+          "center_date": "2015-06-26 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": true,
+        "turn_date": "2015-07-08 00:00:00",
+        "days_from_center": 16,
+        "price_change_3d": 0.3224557161279218,
+        "price_change_5d": 0.5374261935465363,
+        "price_change_10d": 1.0748523870930726,
+        "max_move_in_window": 0.8061392903198045,
+        "direction_correct": true,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2015-09-16 00:00:00",
+          "end_date": "2015-09-24 00:00:00",
+          "center_date": "2015-09-20 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2015-09-17 00:00:00",
+          "end_date": "2015-09-25 00:00:00",
+          "center_date": "2015-09-21 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2015-09-18 00:00:00",
+          "end_date": "2015-09-26 00:00:00",
+          "center_date": "2015-09-22 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2015-09-19 00:00:00",
+          "end_date": "2015-09-27 00:00:00",
+          "center_date": "2015-09-23 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2015-09-20 00:00:00",
+          "end_date": "2015-09-28 00:00:00",
+          "center_date": "2015-09-24 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2015-09-21 00:00:00",
+          "end_date": "2015-09-29 00:00:00",
+          "center_date": "2015-09-25 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": true,
+        "turn_date": "2015-10-09 00:00:00",
+        "days_from_center": 18,
+        "price_change_3d": -0.8299637735929318,
+        "price_change_5d": -1.3832729559882195,
+        "price_change_10d": -2.766545911976439,
+        "max_move_in_window": 2.074909433982329,
+        "direction_correct": true,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2015-09-22 00:00:00",
+          "end_date": "2015-09-30 00:00:00",
+          "center_date": "2015-09-26 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": true,
+        "turn_date": "2015-10-09 00:00:00",
+        "days_from_center": 17,
+        "price_change_3d": -0.8299637735929318,
+        "price_change_5d": -1.3832729559882195,
+        "price_change_10d": -2.766545911976439,
+        "max_move_in_window": 2.074909433982329,
+        "direction_correct": true,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2015-12-16 00:00:00",
+          "end_date": "2015-12-24 00:00:00",
+          "center_date": "2015-12-20 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2015-12-17 00:00:00",
+          "end_date": "2015-12-25 00:00:00",
+          "center_date": "2015-12-21 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2015-12-18 00:00:00",
+          "end_date": "2015-12-26 00:00:00",
+          "center_date": "2015-12-22 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2015-12-19 00:00:00",
+          "end_date": "2015-12-27 00:00:00",
+          "center_date": "2015-12-23 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2015-12-20 00:00:00",
+          "end_date": "2015-12-28 00:00:00",
+          "center_date": "2015-12-24 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2015-12-21 00:00:00",
+          "end_date": "2015-12-29 00:00:00",
+          "center_date": "2015-12-25 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2015-12-22 00:00:00",
+          "end_date": "2015-12-30 00:00:00",
+          "center_date": "2015-12-26 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2016-10-03 00:00:00",
+          "end_date": "2016-10-11 00:00:00",
+          "center_date": "2016-10-07 00:00:00",
+          "tier": 3,
+          "solar_term": "Tier3",
+          "confidence_score": 60,
+          "signals": [
+            "SolarTerm_Tier3",
+            "Sqrt_66\u00b2_div_8",
+            "Anniversary_1yr_plus_6mo"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2016-10-04 00:00:00",
+          "end_date": "2016-10-12 00:00:00",
+          "center_date": "2016-10-08 00:00:00",
+          "tier": 3,
+          "solar_term": "Tier3",
+          "confidence_score": 60,
+          "signals": [
+            "SolarTerm_Tier3",
+            "Sqrt_66\u00b2_div_8",
+            "Anniversary_1yr_plus_6mo"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2016-10-05 00:00:00",
+          "end_date": "2016-10-13 00:00:00",
+          "center_date": "2016-10-09 00:00:00",
+          "tier": 3,
+          "solar_term": "Tier3",
+          "confidence_score": 60,
+          "signals": [
+            "SolarTerm_Tier3",
+            "Sqrt_66\u00b2_div_8",
+            "Anniversary_1yr_plus_6mo"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2016-10-02 00:00:00",
+          "end_date": "2016-10-10 00:00:00",
+          "center_date": "2016-10-06 00:00:00",
+          "tier": 3,
+          "solar_term": "Tier3",
+          "confidence_score": 45,
+          "signals": [
+            "SolarTerm_Tier3",
+            "Sqrt_66\u00b2_div_8",
+            "Anniversary_1yr_plus_3mo"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2016-10-06 00:00:00",
+          "end_date": "2016-10-14 00:00:00",
+          "center_date": "2016-10-10 00:00:00",
+          "tier": 3,
+          "solar_term": "Tier3",
+          "confidence_score": 45,
+          "signals": [
+            "SolarTerm_Tier3",
+            "Sqrt_66\u00b2_div_8",
+            "Anniversary_1yr_plus_6mo"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2016-09-15 00:00:00",
+          "end_date": "2016-09-23 00:00:00",
+          "center_date": "2016-09-19 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 40,
+          "signals": [
+            "SolarTerm_Tier1",
+            "Sqrt_65\u00b2_div_8"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2016-09-16 00:00:00",
+          "end_date": "2016-09-24 00:00:00",
+          "center_date": "2016-09-20 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 40,
+          "signals": [
+            "SolarTerm_Tier1",
+            "Sqrt_65\u00b2_div_8"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2016-09-17 00:00:00",
+          "end_date": "2016-09-25 00:00:00",
+          "center_date": "2016-09-21 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 40,
+          "signals": [
+            "SolarTerm_Tier1",
+            "Sqrt_65\u00b2_div_8"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2016-09-18 00:00:00",
+          "end_date": "2016-09-26 00:00:00",
+          "center_date": "2016-09-22 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 40,
+          "signals": [
+            "SolarTerm_Tier1",
+            "Sqrt_65\u00b2_div_8"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2016-09-19 00:00:00",
+          "end_date": "2016-09-27 00:00:00",
+          "center_date": "2016-09-23 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 40,
+          "signals": [
+            "SolarTerm_Tier1",
+            "Sqrt_65\u00b2_div_8"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2016-09-20 00:00:00",
+          "end_date": "2016-09-28 00:00:00",
+          "center_date": "2016-09-24 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 40,
+          "signals": [
+            "SolarTerm_Tier1",
+            "Sqrt_65\u00b2_div_8"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2016-09-21 00:00:00",
+          "end_date": "2016-09-29 00:00:00",
+          "center_date": "2016-09-25 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 40,
+          "signals": [
+            "SolarTerm_Tier1",
+            "Sqrt_65\u00b2_div_8"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2016-10-07 00:00:00",
+          "end_date": "2016-10-15 00:00:00",
+          "center_date": "2016-10-11 00:00:00",
+          "tier": 3,
+          "solar_term": "N/A",
+          "confidence_score": 40,
+          "signals": [
+            "Sqrt_66\u00b2_div_8",
+            "Anniversary_1yr_plus_6mo",
+            "Anniversary_1yr"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2016-12-15 00:00:00",
+          "end_date": "2016-12-23 00:00:00",
+          "center_date": "2016-12-19 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 40,
+          "signals": [
+            "SolarTerm_Tier1",
+            "Sqrt_65\u00b2_div_8"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2016-12-16 00:00:00",
+          "end_date": "2016-12-24 00:00:00",
+          "center_date": "2016-12-20 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 40,
+          "signals": [
+            "SolarTerm_Tier1",
+            "Sqrt_65\u00b2_div_8"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2016-07-05 00:00:00",
+          "end_date": "2016-07-13 00:00:00",
+          "center_date": "2016-07-09 00:00:00",
+          "tier": 3,
+          "solar_term": "Tier3",
+          "confidence_score": 35,
+          "signals": [
+            "SolarTerm_Tier3",
+            "Anniversary_1yr_plus_3mo",
+            "Anniversary_1yr"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2016-07-06 00:00:00",
+          "end_date": "2016-07-14 00:00:00",
+          "center_date": "2016-07-10 00:00:00",
+          "tier": 3,
+          "solar_term": "Tier3",
+          "confidence_score": 35,
+          "signals": [
+            "SolarTerm_Tier3",
+            "Anniversary_1yr_plus_3mo",
+            "Anniversary_1yr"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2016-07-07 00:00:00",
+          "end_date": "2016-07-15 00:00:00",
+          "center_date": "2016-07-11 00:00:00",
+          "tier": 3,
+          "solar_term": "Tier3",
+          "confidence_score": 35,
+          "signals": [
+            "SolarTerm_Tier3",
+            "Anniversary_1yr_plus_3mo",
+            "Anniversary_1yr"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2016-03-16 00:00:00",
+          "end_date": "2016-03-24 00:00:00",
+          "center_date": "2016-03-20 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2016-03-17 00:00:00",
+          "end_date": "2016-03-25 00:00:00",
+          "center_date": "2016-03-21 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2016-03-18 00:00:00",
+          "end_date": "2016-03-26 00:00:00",
+          "center_date": "2016-03-22 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2016-03-19 00:00:00",
+          "end_date": "2016-03-27 00:00:00",
+          "center_date": "2016-03-23 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      }
+    ]
+  },
+  "sse": {
+    "market": "SSE",
+    "period": "2015-2025",
+    "total_windows": 1906,
+    "total_hits": 173,
+    "overall_hit_rate": 9.076600209863589,
+    "tier_stats": {
+      "1": {
+        "total": 308,
+        "hits": 16,
+        "hit_rate": 5.194805194805195,
+        "avg_move_5d": 0.10743158867246434
+      },
+      "2": {
+        "total": 242,
+        "hits": 32,
+        "hit_rate": 13.223140495867769,
+        "avg_move_5d": 0.06922366066098849
+      },
+      "3": {
+        "total": 1356,
+        "hits": 125,
+        "hit_rate": 9.218289085545722,
+        "avg_move_5d": 0.11863911198018007
+      }
+    },
+    "confidence_stats": {
+      "VERY_HIGH": {
+        "total": 182,
+        "hits": 17,
+        "hit_rate": 9.340659340659341,
+        "avg_move_5d": 0.04587634782368154
+      },
+      "HIGH": {
+        "total": 666,
+        "hits": 68,
+        "hit_rate": 10.21021021021021,
+        "avg_move_5d": 0.14131763242076575
+      },
+      "MEDIUM": {
+        "total": 1906,
+        "hits": 173,
+        "hit_rate": 9.076600209863589,
+        "avg_move_5d": 0.11055387777345353
+      }
+    },
+    "year_stats": {
+      "2015": {
+        "total": 28,
+        "hits": 7,
+        "hit_rate": 25.0
+      },
+      "2016": {
+        "total": 42,
+        "hits": 4,
+        "hit_rate": 9.523809523809524
+      },
+      "2017": {
+        "total": 101,
+        "hits": 9,
+        "hit_rate": 8.91089108910891
+      },
+      "2018": {
+        "total": 132,
+        "hits": 4,
+        "hit_rate": 3.0303030303030303
+      },
+      "2019": {
+        "total": 164,
+        "hits": 10,
+        "hit_rate": 6.097560975609756
+      },
+      "2020": {
+        "total": 193,
+        "hits": 10,
+        "hit_rate": 5.181347150259067
+      },
+      "2021": {
+        "total": 207,
+        "hits": 16,
+        "hit_rate": 7.729468599033816
+      },
+      "2022": {
+        "total": 250,
+        "hits": 25,
+        "hit_rate": 10.0
+      },
+      "2023": {
+        "total": 236,
+        "hits": 14,
+        "hit_rate": 5.932203389830509
+      },
+      "2024": {
+        "total": 253,
+        "hits": 60,
+        "hit_rate": 23.715415019762844
+      },
+      "2025": {
+        "total": 300,
+        "hits": 14,
+        "hit_rate": 4.666666666666667
+      }
+    },
+    "avg_move_3d": 0.06633232666407211,
+    "avg_move_5d": 0.11055387777345353,
+    "avg_move_10d": 0.22110775554690706,
+    "reversal_rate": 1.2067156348373556,
+    "results": [
+      {
+        "window": {
+          "start_date": "2015-03-17 00:00:00",
+          "end_date": "2015-03-25 00:00:00",
+          "center_date": "2015-03-21 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2015-03-18 00:00:00",
+          "end_date": "2015-03-26 00:00:00",
+          "center_date": "2015-03-22 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2015-03-19 00:00:00",
+          "end_date": "2015-03-27 00:00:00",
+          "center_date": "2015-03-23 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2015-03-20 00:00:00",
+          "end_date": "2015-03-28 00:00:00",
+          "center_date": "2015-03-24 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2015-03-21 00:00:00",
+          "end_date": "2015-03-29 00:00:00",
+          "center_date": "2015-03-25 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2015-03-22 00:00:00",
+          "end_date": "2015-03-30 00:00:00",
+          "center_date": "2015-03-26 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2015-03-23 00:00:00",
+          "end_date": "2015-03-31 00:00:00",
+          "center_date": "2015-03-27 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2015-06-16 00:00:00",
+          "end_date": "2015-06-24 00:00:00",
+          "center_date": "2015-06-20 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2015-06-17 00:00:00",
+          "end_date": "2015-06-25 00:00:00",
+          "center_date": "2015-06-21 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2015-06-18 00:00:00",
+          "end_date": "2015-06-26 00:00:00",
+          "center_date": "2015-06-22 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2015-06-19 00:00:00",
+          "end_date": "2015-06-27 00:00:00",
+          "center_date": "2015-06-23 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2015-06-20 00:00:00",
+          "end_date": "2015-06-28 00:00:00",
+          "center_date": "2015-06-24 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2015-06-21 00:00:00",
+          "end_date": "2015-06-29 00:00:00",
+          "center_date": "2015-06-25 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2015-06-22 00:00:00",
+          "end_date": "2015-06-30 00:00:00",
+          "center_date": "2015-06-26 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2015-09-16 00:00:00",
+          "end_date": "2015-09-24 00:00:00",
+          "center_date": "2015-09-20 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2015-09-17 00:00:00",
+          "end_date": "2015-09-25 00:00:00",
+          "center_date": "2015-09-21 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2015-09-18 00:00:00",
+          "end_date": "2015-09-26 00:00:00",
+          "center_date": "2015-09-22 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2015-09-19 00:00:00",
+          "end_date": "2015-09-27 00:00:00",
+          "center_date": "2015-09-23 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2015-09-20 00:00:00",
+          "end_date": "2015-09-28 00:00:00",
+          "center_date": "2015-09-24 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2015-09-21 00:00:00",
+          "end_date": "2015-09-29 00:00:00",
+          "center_date": "2015-09-25 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2015-09-22 00:00:00",
+          "end_date": "2015-09-30 00:00:00",
+          "center_date": "2015-09-26 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2015-12-16 00:00:00",
+          "end_date": "2015-12-24 00:00:00",
+          "center_date": "2015-12-20 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": true,
+        "turn_date": "2015-12-23 00:00:00",
+        "days_from_center": 7,
+        "price_change_3d": -2.4336900884132153,
+        "price_change_5d": -4.056150147355359,
+        "price_change_10d": -8.112300294710717,
+        "max_move_in_window": 6.084225221033038,
+        "direction_correct": true,
+        "is_reversal": true
+      },
+      {
+        "window": {
+          "start_date": "2015-12-17 00:00:00",
+          "end_date": "2015-12-25 00:00:00",
+          "center_date": "2015-12-21 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": true,
+        "turn_date": "2015-12-23 00:00:00",
+        "days_from_center": 6,
+        "price_change_3d": -2.4336900884132153,
+        "price_change_5d": -4.056150147355359,
+        "price_change_10d": -8.112300294710717,
+        "max_move_in_window": 6.084225221033038,
+        "direction_correct": true,
+        "is_reversal": true
+      },
+      {
+        "window": {
+          "start_date": "2015-12-18 00:00:00",
+          "end_date": "2015-12-26 00:00:00",
+          "center_date": "2015-12-22 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": true,
+        "turn_date": "2015-12-23 00:00:00",
+        "days_from_center": 5,
+        "price_change_3d": -2.4336900884132153,
+        "price_change_5d": -4.056150147355359,
+        "price_change_10d": -8.112300294710717,
+        "max_move_in_window": 6.084225221033038,
+        "direction_correct": true,
+        "is_reversal": true
+      },
+      {
+        "window": {
+          "start_date": "2015-12-19 00:00:00",
+          "end_date": "2015-12-27 00:00:00",
+          "center_date": "2015-12-23 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": true,
+        "turn_date": "2015-12-23 00:00:00",
+        "days_from_center": 4,
+        "price_change_3d": -2.4336900884132153,
+        "price_change_5d": -4.056150147355359,
+        "price_change_10d": -8.112300294710717,
+        "max_move_in_window": 6.084225221033038,
+        "direction_correct": true,
+        "is_reversal": true
+      },
+      {
+        "window": {
+          "start_date": "2015-12-20 00:00:00",
+          "end_date": "2015-12-28 00:00:00",
+          "center_date": "2015-12-24 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": true,
+        "turn_date": "2015-12-23 00:00:00",
+        "days_from_center": 3,
+        "price_change_3d": -2.4336900884132153,
+        "price_change_5d": -4.056150147355359,
+        "price_change_10d": -8.112300294710717,
+        "max_move_in_window": 6.084225221033038,
+        "direction_correct": true,
+        "is_reversal": true
+      },
+      {
+        "window": {
+          "start_date": "2015-12-21 00:00:00",
+          "end_date": "2015-12-29 00:00:00",
+          "center_date": "2015-12-25 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": true,
+        "turn_date": "2015-12-23 00:00:00",
+        "days_from_center": 2,
+        "price_change_3d": -2.4336900884132153,
+        "price_change_5d": -4.056150147355359,
+        "price_change_10d": -8.112300294710717,
+        "max_move_in_window": 6.084225221033038,
+        "direction_correct": true,
+        "is_reversal": true
+      },
+      {
+        "window": {
+          "start_date": "2015-12-22 00:00:00",
+          "end_date": "2015-12-30 00:00:00",
+          "center_date": "2015-12-26 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": true,
+        "turn_date": "2015-12-23 00:00:00",
+        "days_from_center": 1,
+        "price_change_3d": -2.4336900884132153,
+        "price_change_5d": -4.056150147355359,
+        "price_change_10d": -8.112300294710717,
+        "max_move_in_window": 6.084225221033038,
+        "direction_correct": true,
+        "is_reversal": true
+      },
+      {
+        "window": {
+          "start_date": "2016-12-17 00:00:00",
+          "end_date": "2016-12-25 00:00:00",
+          "center_date": "2016-12-21 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 65,
+          "signals": [
+            "SolarTerm_Tier1",
+            "Sqrt_67\u00b2_div_8",
+            "Sqrt_62\u00b2_div_8"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2016-12-16 00:00:00",
+          "end_date": "2016-12-24 00:00:00",
+          "center_date": "2016-12-20 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 55,
+          "signals": [
+            "SolarTerm_Tier1",
+            "Sqrt_62\u00b2_div_8",
+            "Anniversary_1yr"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2016-12-18 00:00:00",
+          "end_date": "2016-12-26 00:00:00",
+          "center_date": "2016-12-22 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 55,
+          "signals": [
+            "SolarTerm_Tier1",
+            "Sqrt_67\u00b2_div_8",
+            "Anniversary_1yr"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2016-12-19 00:00:00",
+          "end_date": "2016-12-27 00:00:00",
+          "center_date": "2016-12-23 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 55,
+          "signals": [
+            "SolarTerm_Tier1",
+            "Sqrt_67\u00b2_div_8",
+            "Anniversary_1yr"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2016-12-20 00:00:00",
+          "end_date": "2016-12-28 00:00:00",
+          "center_date": "2016-12-24 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 55,
+          "signals": [
+            "SolarTerm_Tier1",
+            "Sqrt_67\u00b2_div_8",
+            "Anniversary_1yr"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2016-12-21 00:00:00",
+          "end_date": "2016-12-29 00:00:00",
+          "center_date": "2016-12-25 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 55,
+          "signals": [
+            "SolarTerm_Tier1",
+            "Sqrt_67\u00b2_div_8",
+            "Anniversary_1yr"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2016-12-15 00:00:00",
+          "end_date": "2016-12-23 00:00:00",
+          "center_date": "2016-12-19 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 40,
+          "signals": [
+            "SolarTerm_Tier1",
+            "Sqrt_62\u00b2_div_8"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2016-03-16 00:00:00",
+          "end_date": "2016-03-24 00:00:00",
+          "center_date": "2016-03-20 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2016-03-17 00:00:00",
+          "end_date": "2016-03-25 00:00:00",
+          "center_date": "2016-03-21 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2016-03-18 00:00:00",
+          "end_date": "2016-03-26 00:00:00",
+          "center_date": "2016-03-22 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2016-03-19 00:00:00",
+          "end_date": "2016-03-27 00:00:00",
+          "center_date": "2016-03-23 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2016-03-20 00:00:00",
+          "end_date": "2016-03-28 00:00:00",
+          "center_date": "2016-03-24 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2016-03-21 00:00:00",
+          "end_date": "2016-03-29 00:00:00",
+          "center_date": "2016-03-25 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2016-03-22 00:00:00",
+          "end_date": "2016-03-30 00:00:00",
+          "center_date": "2016-03-26 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2016-06-16 00:00:00",
+          "end_date": "2016-06-24 00:00:00",
+          "center_date": "2016-06-20 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2016-06-17 00:00:00",
+          "end_date": "2016-06-25 00:00:00",
+          "center_date": "2016-06-21 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2016-06-18 00:00:00",
+          "end_date": "2016-06-26 00:00:00",
+          "center_date": "2016-06-22 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2016-06-19 00:00:00",
+          "end_date": "2016-06-27 00:00:00",
+          "center_date": "2016-06-23 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2016-06-20 00:00:00",
+          "end_date": "2016-06-28 00:00:00",
+          "center_date": "2016-06-24 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2016-06-21 00:00:00",
+          "end_date": "2016-06-29 00:00:00",
+          "center_date": "2016-06-25 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2016-06-22 00:00:00",
+          "end_date": "2016-06-30 00:00:00",
+          "center_date": "2016-06-26 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      },
+      {
+        "window": {
+          "start_date": "2016-09-15 00:00:00",
+          "end_date": "2016-09-23 00:00:00",
+          "center_date": "2016-09-19 00:00:00",
+          "tier": 1,
+          "solar_term": "Tier1",
+          "confidence_score": 30,
+          "signals": [
+            "SolarTerm_Tier1"
+          ]
+        },
+        "actual_turn_found": false,
+        "turn_date": null,
+        "days_from_center": null,
+        "price_change_3d": 0.0,
+        "price_change_5d": 0.0,
+        "price_change_10d": 0.0,
+        "max_move_in_window": 0.0,
+        "direction_correct": false,
+        "is_reversal": false
+      }
+    ]
+  },
+  "methodology": "\u5c0f\u9f8d Gann + Solar Term",
+  "period": "2015-2025",
+  "generated": "2026-02-23T07:44:15.572227"
+}

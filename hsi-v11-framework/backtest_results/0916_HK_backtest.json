@@ -1,0 +1,67 @@
+{
+  "symbol": "0916.HK",
+  "period": "2020-2025",
+  "total_pivots": 9,
+  "total_windows": 301,
+  "hit_rate_4d": 3.0,
+  "hit_rate_8d": 4.3,
+  "high_conf_acc": 0,
+  "yearly": [
+    {
+      "year": 2020,
+      "windows": 7,
+      "hits_4d": 0,
+      "hits_8d": 0,
+      "rate_4d": 0.0,
+      "rate_8d": 0.0,
+      "avg_score": 0
+    },
+    {
+      "year": 2021,
+      "windows": 17,
+      "hits_4d": 1,
+      "hits_8d": 1,
+      "rate_4d": 5.9,
+      "rate_8d": 5.9,
+      "avg_score": 10.0
+    },
+    {
+      "year": 2022,
+      "windows": 40,
+      "hits_4d": 2,
+      "hits_8d": 2,
+      "rate_4d": 5.0,
+      "rate_8d": 5.0,
+      "avg_score": 12.5
+    },
+    {
+      "year": 2023,
+      "windows": 69,
+      "hits_4d": 3,
+      "hits_8d": 3,
+      "rate_4d": 4.3,
+      "rate_8d": 4.3,
+      "avg_score": 13.3
+    },
+    {
+      "year": 2024,
+      "windows": 68,
+      "hits_4d": 0,
+      "hits_8d": 0,
+      "rate_4d": 0.0,
+      "rate_8d": 0.0,
+      "avg_score": 0
+    },
+    {
+      "year": 2025,
+      "windows": 100,
+      "hits_4d": 3,
+      "hits_8d": 7,
+      "rate_4d": 3.0,
+      "rate_8d": 7.0,
+      "avg_score": 28.6
+    }
+  ],
+  "best_year": 2025,
+  "worst_year": 2020
+}

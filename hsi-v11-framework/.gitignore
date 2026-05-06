@@ -1,0 +1,46 @@
+# === Personal / Sensitive Files ===
+MEMORY.md
+USER.md
+SOUL.md
+IDENTITY.md
+TOOLS.md
+AGENTS.md
+HEARTBEAT.md
+BOOTSTRAP.md
+
+# === OpenClaw Config ===
+.openclaw/
+
+# === Large Backups ===
+*.tar.gz
+BACKUP_*/
+
+# === Dependencies ===
+node_modules/
+package-lock.json
+__pycache__/
+*.pyc
+
+# === Data Caches ===
+caisen_data/
+stock-analysis-output/
+stock_analysis/
+v11_analysis_*/
+
+# === Raw Data (large CSVs, regenerate as needed) ===
+hsi_old_1980_2026.csv
+hsi_stooq_full.csv
+hsi_stooq_raw.csv
+hsi_stooq_latest.csv
+hsi_backup_*.csv
+hsi_processed.csv
+
+# === Temp / OS ===
+.DS_Store
+Thumbs.db
+*.log
+hourly_status.md
+
+# === Google Drive / Upload configs ===
+google_drive_credentials.json
+rclone.conf

@@ -1,0 +1,136 @@
+# 📊 HSI Quick Reference - v11.1 Framework
+
+**Generated:** March 26, 2026 07:00 UTC  
+**Updated:** March 27, 2026 03:05 UTC (S&P 6,477 breakdown)  
+**Framework:** Zhou Jintao 4-Cycle + 小龍 Gann Theory (v11.1)
+
+---
+
+## 🔴 CURRENT RECOMMENDATION (UPDATED MAR 27)
+
+```
+╔══════════════════════════════════════════════════════════════╗
+║              🔴 S&P BREAKS 6,500 — BEARISH CONFIRMED         ║
+║                                                              ║
+║              v11.1 Convergence Score: ~1.35/3.00 🔻          ║
+║                                                              ║
+║              Stance: Defensive (持盈保泰)                    ║
+║              Cash Reserve: 15% (ready for 23,200-23,500)     ║
+╚══════════════════════════════════════════════════════════════╝
+```
+
+**🚨 BREAKING:** S&P 500 closed at **6,477** (-1.75%) — broke critical 6,500 support. 小龍's Head-Shoulders-Top thesis now **VALIDATED**. HSI 23,200-23,500 is base case, not bear case.
+
+---
+
+## 📍 KEY LEVELS
+
+| Level | HSI Value | Status | Action |
+|-------|-----------|--------|--------|
+| **Current** | **~25,337** | 📍 Mar 26 | Hold cash |
+| Neckline (Broken) | 24,000-25,000 | 🔴 BROKEN | Resistance now |
+| **Target Buy** | **23,200-23,500** | 🟢 Wait | Start accumulation (3%) |
+| **Capitulation** | **22,000-22,500** | 🟢 Wait | Maximum deployment |
+
+---
+
+## 🌍 GLOBAL CONTEXT (UPDATED MAR 27)
+
+| Asset | Level | Status | Impact on HSI |
+|-------|-------|--------|---------------|
+| **S&P 500** | **6,477** | 🔴 **BROKE 6,500** (-1.75%) | 🚨 Breakdown confirmed |
+| **S&P Next Support** | 6,400 → 6,200 | 🔴 In play | HSI follows lower |
+| **Oil (Brent)** | $98-102 | 🟢 -8% (ceasefire) | Reduced pressure |
+| **Gold** | $4,512-4,552 | 🟠 Wait for $3,200 | Parabolic risk |
+
+---
+
+## 📈 HSI 6-MONTH PRICE ACTION (Weekly)
+
+```
+HSI Level
+28000 |                                          ●
+      |                                      ●   ●
+27000 |                                  ●   ●
+      |                              ●   ●
+26000 |                          ●   ●
+      |                      ●   ●
+25000 |                  ●   ●               ● ← Current: 25,337
+      |              ●   ●   ●   ●   ●   ●
+24000 |──────────●─●────────────────────────────── 🔴 Neckline (24,000-25,000)
+      |      ●
+23000 |  ●                                       🟢 Target Buy (23,200-23,500)
+      |
+22000 |                                          🟢 Capitulation (22,000-22,500)
+      +────────────────────────────────────────────────────────────────
+        Oct   Nov   Dec   Jan   Feb   Mar   Apr   May   Jun   Jul
+       2025                                2026
+```
+
+---
+
+## 🎯 小龍 ANALYSIS (Mar 24 Video)
+
+**Pattern:** Head-Shoulders-Top (confirmed break)  
+**Neckline:** 24,000-25,000 (BROKEN)  
+**Target:** 22,000-23,000  
+**Time Window:** Feb-Mar-Apr 2026 = Caution period  
+
+**Key Quote:** "持盈保泰" (Preserve Capital, Wait for Bottom)
+
+---
+
+## 📊 CYCLE POSITIONING
+
+| Cycle | Phase | Weight | Signal |
+|-------|-------|--------|--------|
+| **Kondratiev** (康波) | Depression End → Recovery | 30% | 🟢 Long-term bullish |
+| **Real Estate + Juglar** | Late Decline → Early Recovery | 35% | 🟡 Neutral |
+| **Kitchin + Gann + Solar** | Short-term timing | 35% | 🔴 Bearish now |
+| **小龍 Gann** | Head-Shoulders confirmation | 20% | 🔴 Bearish |
+
+**Net Score:** 1.65/3.00 → 🔴 WAIT
+
+---
+
+## ⚠️ ALERTS (UPDATED MAR 27)
+
+| Alert | Level | Status |
+|-------|-------|--------|
+| **S&P 500** | **6,477** | 🔴 **BROKE 6,500** - Bearish confirmed |
+| **HSI Neckline** | 24,000 | 🚨 BROKEN - Head-Shoulders-Top confirmed |
+| **HSI Next Support** | 23,200-23,500 | 🟢 Target buy zone activated |
+| **Gold Top** | $5,000+ | ✅ 小龍 EXITED - Wait for $3,200-3,800 |
+| **Oil Warning** | $120+ | 🟢 Down -8% (ceasefire deal) |
+
+---
+
+## 📅 NEXT REVIEW DATES
+
+| Date | Event | Action |
+|------|-------|--------|
+| **Mar 31, 2026** | Weekly checkpoint | Review HSI 24,500 retest |
+| **Apr 20, 2026** | 谷雨 (Guyu) solar term | Monitor for bounce |
+| **Q4 2026** | Expected bottom window | Prepare major accumulation |
+
+---
+
+## 🎬 CHART FILES
+
+- **Interactive HTML:** `hsi_chart.html` (open in browser)
+- **Data Source:** `hsi.csv` (Stooq, 1969-2026)
+- **Framework Doc:** `memory/hsi_v11_framework_review_2026-03-24.md`
+
+---
+
+## 💡 STRATEGIC PRINCIPLES (Zhou Jintao)
+
+1. **顺势而为** - Follow the trend, don't fight cycle positioning
+2. **Depression phase** - Capital preservation > profit-seeking
+3. **Liquidity priority** - Hold liquid assets during decline
+4. **Deploy at turning points** - 2019, 2030 type opportunities
+5. **不要过度迷信** - Don't be superstitious about cycles
+
+---
+
+*Generated by cyclingAi v11.1 | 康波第六次回升期 (2025-2030)*
